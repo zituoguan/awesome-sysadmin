@@ -3,7 +3,7 @@
 [![](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![](https://github.com/awesome-foss/awesome-sysadmin/actions/workflows/ci.yml/badge.svg)](https://github.com/awesome-foss/awesome-sysadmin/issues/416)
 
-**A curated list of amazingly awesome Free and Open-Source sysadmin resources.** Please read the [Pull Request template](./.github/PULL_REQUEST_TEMPLATE.md) if you wish to add software and consider [donating](https://github.com/n1trux/awesome-donations) to the FLOSS projects you use regularly. Please consider contributing to fix one of the pinned [issues](https://github.com/awesome-foss/awesome-sysadmin/issues) if your time allows.
+**一个精心策划的极其优秀的自由和开源系统管理员资源列表。** 如果你希望添加软件，请阅读 [Pull Request 模板](./.github/PULL_REQUEST_TEMPLATE.md)，并考虑[捐赠](https://github.com/n1trux/awesome-donations)给你经常使用的 FLOSS 项目。如果你有时间，也请考虑为修复置顶的 [issues](https://github.com/awesome-foss/awesome-sysadmin/issues) 做出贡献。
 
 --------------------
 
@@ -61,243 +61,242 @@
 
 --------------------
 
-## Software
+## 软件
 
-### Automation
+### 自动化
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Build automation.
+构建自动化。
 
-- [Apache Ant](https://ant.apache.org/) - Automation build tool, similar to make, a library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. ([Source Code](https://github.com/apache/ant)) `Apache-2.0` `Java`
-- [Apache Maven](https://maven.apache.org/) - Build automation tool mainly for Java. A software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information. ([Source Code](https://github.com/apache/maven)) `Apache-2.0` `Java`
-- [Bazel](https://www.bazel.io/) - A fast, scalable, multi-language and extensible build system. Used by Google. ([Source Code](https://github.com/bazelbuild/bazel/)) `Apache-2.0` `Java`
-- [Bolt](https://www.puppet.com/community/open-source/bolt) - You can use Bolt to run one-off tasks, scripts to automate the provisioning and management of some nodes, you can use Bolt to move a step beyond scripts, and make them shareable. ([Source Code](https://github.com/puppetlabs/bolt)) `Apache-2.0` `Ruby`
-- [GNU Make](https://www.gnu.org/software/make/) - The most popular automation build tool for many purposes, make is a tool which controls the generation of executables and other non-source files of a program from the program's source files. ([Source Code](https://git.savannah.gnu.org/cgit/make.git)) `GPL-3.0` `C`
-- [Gradle](https://gradle.org/) - Another build automation system. ([Source Code](https://github.com/gradle/gradle)) `Apache-2.0` `Groovy/Java`
-- [Rake](https://ruby.github.io/rake/) - Build automation tool similar to Make, written in and extensible in Ruby. ([Source Code](https://github.com/ruby/rake)) `MIT` `Ruby`
+- [Apache Ant](https://ant.apache.org/) - 自动化构建工具，类似于 make，是一个库和命令行工具，其任务是驱动在构建文件中描述的目标和扩展点，这些目标和扩展点彼此依赖。([源码](https://github.com/apache/ant)) `Apache-2.0` `Java`
+- [Apache Maven](https://maven.apache.org/) - 主要用于 Java 的构建自动化工具。一个软件项目管理和理解工具。基于项目对象模型（POM）的概念，Maven 可以从一处信息管理项目的构建、报告和文档。([源码](https://github.com/apache/maven)) `Apache-2.0` `Java`
+- [Bazel](https://www.bazel.io/) - 一个快速、可扩展、多语言且可扩展的构建系统。由 Google 使用。([源码](https://github.com/bazelbuild/bazel/)) `Apache-2.0` `Java`
+- [Bolt](https://www.puppet.com/community/open-source/bolt) - 可用于运行一次性任务、脚本以自动化部分节点的配置和管理，也可用于超越脚本并使其可共享。([源码](https://github.com/puppetlabs/bolt)) `Apache-2.0` `Ruby`
+- [GNU Make](https://www.gnu.org/software/make/) - 最流行的自动化构建工具之一，适用于多种用途。make 控制从源文件生成可执行文件和其他非源文件。([源码](https://git.savannah.gnu.org/cgit/make.git)) `GPL-3.0` `C`
+- [Gradle](https://gradle.org/) - 另一种构建自动化系统。([源码](https://github.com/gradle/gradle)) `Apache-2.0` `Groovy/Java`
+- [Rake](https://ruby.github.io/rake/) - 类似于 Make 的构建自动化工具，用 Ruby 编写并可扩展。([源码](https://github.com/ruby/rake)) `MIT` `Ruby`
+
+### 备份
+
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
+
+[备份](https://en.wikipedia.org/wiki/Backup) 软件。
+
+_另见：[Restic 的 Linux 备份软件列表](https://github.com/restic/others)_
+
+- [Backupninja](https://0xacab.org/liberate/backupninja) - 轻量级、可扩展的元备份系统，提供集中方式配置和协调多种备份工具。`GPL-2.0` `Shell`
+- [Backrest](https://garethgeorge.github.io/backrest/) - restic 备份的 Web UI 和编排器。([源码](https://github.com/garethgeorge/backrest)) `GPL-3.0` `Docker/Go`
+- [Bareos](https://www.bareos.org/) - 跨网络备份解决方案，可对所有主流操作系统的数据进行保存、归档和恢复。([源码](https://github.com/bareos/bareos)) `AGPL-3.0` `C++/C`
+- [Barman](https://pgbarman.org) - PostgreSQL 的备份和恢复管理器。([源码](https://github.com/EnterpriseDB/barman)) `GPL-3.0` `Python`
+- [BorgBackup](https://www.borgbackup.org/) - 支持去重、压缩和认证加密的归档工具。([源码](https://github.com/borgbackup/borg)) `BSD-3-Clause` `Python`
+- [Burp](https://burp.grke.org/) - 网络备份和恢复程序。([源码](https://github.com/grke/burp)) `AGPL-3.0` `C`
+- [Dar](http://dar.linux.free.fr/) - Disk ARchive，功能丰富、健壮的归档和备份软件，类似 tar。([源码](https://github.com/Edrusb/DAR)) `GPL-2.0` `C++`
+- [Duplicati](https://www.duplicati.com) - 备份客户端，可将加密、增量、压缩的备份安全地存储到云存储服务和远程文件服务器。([源码](https://github.com/duplicati/duplicati)) `LGPL-2.1` `C#`
+- [Duplicity](https://duplicity.gitlab.io/) - 使用 rsync 算法的加密高效带宽备份工具。([源码](https://gitlab.com/duplicity/duplicity)) `GPL-2.0` `Python`
+- [Proxmox Backup Server](https://www.proxmox.com/en/proxmox-backup-server) - 企业级、客户端-服务器架构的备份解决方案，可备份虚拟机、容器和物理主机。([源码](https://git.proxmox.com/?p=proxmox-backup.git;a=tree)) `GPL-3.0` `Rust`
+- [rclone](https://rclone.org/) - 命令行程序，用于在不同云存储提供商之间同步文件和目录。([源码](https://github.com/rclone/rclone)) `MIT` `Go`
+- [Rdiff-backup](https://rdiff-backup.net/) - 反向增量备份工具，可通过网络或本地使用。([源码](https://github.com/rdiff-backup/rdiff-backup)) `GPL-2.0` `Python`
+- [Restic](https://restic.net/) - 简单、快速、可验证、安全且高效的远程备份工具。([源码](https://github.com/restic/restic)) `BSD-2-Clause` `Go`
+- [Rsnapshot](https://rsnapshot.org/) - 基于 rsync 的文件系统快照工具。([源码](https://github.com/rsnapshot/rsnapshot)) `GPL-2.0` `Perl`
+- [Shield](https://github.com/starkandwayne/shield) - 数据库系统备份与恢复的可插拔架构。`MIT` `Go`
+- [UrBackup](https://www.urbackup.org/) - 面向 Windows、MacOS 和 Linux 的开源客户端/服务器网络备份。([源码](https://github.com/uroni/urbackup_backend)) `AGPL-3.0` `C/C++`
 
 
-### Backups
+### 构建与软件组织工具
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[Backup](https://en.wikipedia.org/wiki/Backup) software.
+构建与软件组织工具。
 
-_See also: [Restic's list of Linux backup software](https://github.com/restic/others)_
-
-- [Backupninja](https://0xacab.org/liberate/backupninja) - Lightweight, extensible meta-backup system, provides a centralized way to configure and coordinate many different backup utilities. `GPL-2.0` `Shell`
-- [Backrest](https://garethgeorge.github.io/backrest/) - Backrest is a web UI and orchestrator for restic backup. ([Source Code](https://github.com/garethgeorge/backrest)) `GPL-3.0` `Docker/Go`
-- [Bareos](https://www.bareos.org/) - Cross-network backup solution which preserves, archives, and recovers data from all major operating systems. ([Source Code](https://github.com/bareos/bareos)) `AGPL-3.0` `C++/C`
-- [Barman](https://pgbarman.org) - Backup and Recovery Manager for PostgreSQL. ([Source Code](https://github.com/EnterpriseDB/barman)) `GPL-3.0` `Python`
-- [BorgBackup](https://www.borgbackup.org/) - Deduplicating archiver with compression and authenticated encryption. ([Source Code](https://github.com/borgbackup/borg)) `BSD-3-Clause` `Python`
-- [Burp](https://burp.grke.org/) - Network backup and restore program. ([Source Code](https://github.com/grke/burp)) `AGPL-3.0` `C`
-- [Dar](http://dar.linux.free.fr/) - Which stands for Disk ARchive, is a robust and rich featured archiving and backup software of the tar style. ([Source Code](https://github.com/Edrusb/DAR)) `GPL-2.0` `C++`
-- [Duplicati](https://www.duplicati.com) - Backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers. ([Source Code](https://github.com/duplicati/duplicati)) `LGPL-2.1` `C#`
-- [Duplicity](https://duplicity.gitlab.io/) - Encrypted bandwidth-efficient backup using the rsync algorithm. ([Source Code](https://gitlab.com/duplicity/duplicity)) `GPL-2.0` `Python`
-- [Proxmox Backup Server](https://www.proxmox.com/en/proxmox-backup-server) - Proxmox Backup Server is an enterprise-class, client-server backup solution thatis capable of backing up virtual machines, containers, and physical hosts. ([Source Code](https://git.proxmox.com/?p=proxmox-backup.git;a=tree)) `GPL-3.0` `Rust`
-- [rclone](https://rclone.org/) - Command-line program to sync files and directories to and from different cloud storage providers.. ([Source Code](https://github.com/rclone/rclone)) `MIT` `Go`
-- [Rdiff-backup](https://rdiff-backup.net/) - Reverse differential backup tool, over a network or locally. ([Source Code](https://github.com/rdiff-backup/rdiff-backup)) `GPL-2.0` `Python`
-- [Restic](https://restic.net/) - Easy, fast, verifiable, secure and efficient remote backup tool. ([Source Code](https://github.com/restic/restic)) `BSD-2-Clause` `Go`
-- [Rsnapshot](https://rsnapshot.org/) - Filesystem snapshot utility based on rsync. ([Source Code](https://github.com/rsnapshot/rsnapshot)) `GPL-2.0` `Perl`
-- [Shield](https://github.com/starkandwayne/shield) - A pluggable architecture for backup and restore of database systems. `MIT` `Go`
-- [UrBackup](https://www.urbackup.org/) - Client/Server Open Source Network Backup for Windows, MacOS and Linux. ([Source Code](https://github.com/uroni/urbackup_backend)) `AGPL-3.0` `C/C++`
-
-
-### Build and software organization tools
-
-**[`^        back to top        ^`](#awesome-sysadmin)**
-
-Build and software organization tools.
-
-- [EasyBuild](https://easybuild.io/) - EasyBuild builds software and modulefiles for High Performance Computing (HPC) systems in an efficient way. ([Source Code](https://github.com/easybuilders/easybuild-easyconfigs)) `GPL-2.0` `Python`
-- [Environment Modules](https://cea-hpc.github.io/modules/) - Environment Modules provides for the dynamic modification of a user's environment via modulefiles. ([Source Code](https://github.com/cea-hpc/modules)) `GPL-2.0` `Tcl`
-- [Lmod](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod) - Lmod is a Lua based module system that easily handles the MODULEPATH Hierarchical problem. ([Source Code](https://github.com/TACC/Lmod)) `MIT` `Lua`
-- [Spack](https://spack.io/) - A flexible package manager that supports multiple versions, configurations, platforms, and compilers. ([Source Code](https://github.com/spack/spack)) `MIT/Apache-2.0` `Python`
+- [EasyBuild](https://easybuild.io/) - EasyBuild 以高效的方式为高性能计算（HPC）系统构建软件和模块文件。([源码](https://github.com/easybuilders/easybuild-easyconfigs)) `GPL-2.0` `Python`
+- [Environment Modules](https://cea-hpc.github.io/modules/) - Environment Modules 通过 modulefiles 动态修改用户环境。([源码](https://github.com/cea-hpc/modules)) `GPL-2.0` `Tcl`
+- [Lmod](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod) - 基于 Lua 的模块系统，轻松处理 MODULEPATH 层级问题。([源码](https://github.com/TACC/Lmod)) `MIT` `Lua`
+- [Spack](https://spack.io/) - 灵活的软件包管理器，支持多版本、多配置、多平台和多编译器。([源码](https://github.com/spack/spack)) `MIT/Apache-2.0` `Python`
 
 
 ### ChatOps
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Conversation-driven development and management.
+对话驱动的开发与管理。
 
-_See also: [/r/chatops](https://old.reddit.com/r/chatops)*
+_另见: [/r/chatops](https://old.reddit.com/r/chatops)_
 
-- [Eggdrop](https://www.eggheads.org/) - The oldest Internet Relay Chat (IRC) bot still in active development. ([Source Code](https://github.com/eggheads/eggdrop)) `GPL-2.0` `C`
-- [Errbot](https://errbot.io/) - Plugin based chatbot designed to be easily deployable, extensible and maintainable. ([Source Code](https://github.com/errbotio/errbot)) `GPL-3.0` `Python`
-- [Hubot](https://hubot.github.com/) - A customizable, life embetterment robot. ([Source Code](https://github.com/hubotio/hubot)) `MIT` `Nodejs`
+- [Eggdrop](https://www.eggheads.org/) - 最早的 IRC 机器人，仍在积极开发中。([源码](https://github.com/eggheads/eggdrop)) `GPL-2.0` `C`
+- [Errbot](https://errbot.io/) - 基于插件的聊天机器人，易于部署、扩展和维护。([源码](https://github.com/errbotio/errbot)) `GPL-3.0` `Python`
+- [Hubot](https://hubot.github.com/) - 可定制的自动化机器人。([源码](https://github.com/hubotio/hubot)) `MIT` `Nodejs`
 
 
-### Cloud Computing
+### 云计算
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing) is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user.
+[云计算](https://en.wikipedia.org/wiki/Cloud_computing) 指计算机系统资源（尤其是数据存储和计算能力）的按需可用性，无需用户直接管理。
 
-**Please visit [Cloud Native Software Landscape](https://landscape.cncf.io/?group=projects-and-products&view-mode=card)**
+**请访问 [Cloud Native Software Landscape](https://landscape.cncf.io/?group=projects-and-products&view-mode=card)**
 
 
 
-### Code Review
+### 代码评审
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[Code review](https://en.wikipedia.org/wiki/Code_review) is a software quality assurance activity in which one or several people check a program mainly by viewing and reading parts of its source code.
+[代码评审](https://en.wikipedia.org/wiki/Code_review) 是一种软件质量保证活动，主要通过查看和阅读源代码的部分内容来检查程序。
 
-**Please visit [awesome-selfhosted/Software Development - Project Management](https://awesome-selfhosted.net/tags/software-development---project-management.html)**
+**请访问 [awesome-selfhosted/Software Development - Project Management](https://awesome-selfhosted.net/tags/software-development---project-management.html)**
 
 
 
-### Configuration Management
+### 配置管理
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[Configuration management (CM)](https://en.wikipedia.org/wiki/Configuration_management) is a systems engineering process for establishing and maintaining consistency of a product's performance, functional, and physical attributes with its requirements, design, and operational information throughout its life.
+[配置管理（CM）](https://en.wikipedia.org/wiki/Configuration_management) 是一种系统工程流程，用于在产品整个生命周期内建立和维护其性能、功能和物理属性与其需求、设计和操作信息的一致性。
 
-- [Ansible](https://www.ansible.com/) - Provisioning, configuration management, and application-deployment tool. ([Source Code](https://github.com/ansible/ansible)) `GPL-3.0` `Python`
-- [CFEngine](https://cfengine.com/) - Configuration management system for automated configuration and maintenance of large-scale computer systems. ([Source Code](https://github.com/cfengine/core)) `GPL-3.0` `C`
-- [Chef](https://www.chef.io/products/chef-infra) - Configuration management tool using a pure-Ruby, domain-specific language (DSL) for writing system configuration "recipes". ([Source Code](https://github.com/chef/chef)) `Apache-2.0` `Ruby`
-- [cloud-init](https://cloud-init.io/) - Initialization tool to automate the configuration of VMs, cloud instances, or machines on a network. ([Source Code](https://github.com/canonical/cloud-init)) `GPL-3.0/Apache-2.0` `Python`
-- [Puppet](https://www.puppet.com/) - Software configuration management tool which includes its own declarative language to describe system configuration. ([Source Code](https://github.com/puppetlabs/puppet)) `Apache-2.0` `Ruby/C`
-- [Rudder](https://www.rudder.io/) - Scalable and dynamic configuration management system for patching, security & compliance, based on CFEngine. ([Source Code](https://github.com/Normation/rudder)) `GPL-3.0` `Scala`
-- [Salt](https://docs.saltproject.io/) - Event-driven IT automation, remote task execution, and configuration management software. ([Source Code](https://github.com/saltstack/salt)) `Apache-2.0` `Python`
+- [Ansible](https://www.ansible.com/) - 提供配置管理、应用部署等功能的自动化工具。([源码](https://github.com/ansible/ansible)) `GPL-3.0` `Python`
+- [CFEngine](https://cfengine.com/) - 用于大规模计算机系统自动配置和维护的配置管理系统。([源码](https://github.com/cfengine/core)) `GPL-3.0` `C`
+- [Chef](https://www.chef.io/products/chef-infra) - 使用纯 Ruby DSL 编写系统配置“食谱”的配置管理工具。([源码](https://github.com/chef/chef)) `Apache-2.0` `Ruby`
+- [cloud-init](https://cloud-init.io/) - 自动化配置虚拟机、云实例或网络中机器的初始化工具。([源码](https://github.com/canonical/cloud-init)) `GPL-3.0/Apache-2.0` `Python`
+- [Puppet](https://www.puppet.com/) - 软件配置管理工具，包含描述系统配置的声明式语言。([源码](https://github.com/puppetlabs/puppet)) `Apache-2.0` `Ruby/C`
+- [Rudder](https://www.rudder.io/) - 基于 CFEngine 的可扩展动态配置管理系统，支持补丁、安全与合规。([源码](https://github.com/Normation/rudder)) `GPL-3.0` `Scala`
+- [Salt](https://docs.saltproject.io/) - 事件驱动的 IT 自动化、远程任务执行和配置管理软件。([源码](https://github.com/saltstack/salt)) `Apache-2.0` `Python`
 
 
-### Configuration Management Database
+### 配置管理数据库
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Configuration management database (CMDB) software.
+配置管理数据库（CMDB）软件。
 
-_Related: [IT Asset Management](#it-asset-management)_
+_相关：[IT 资产管理](#it-asset-management)_
 
-- [Collins](https://tumblr.github.io/collins/) - At Tumblr, it's the infrastructure source of truth and knowledge. ([Source Code](https://github.com/tumblr/collins)) `Apache-2.0` `Docker/Scala`
-- [i-doit](https://www.i-doit.org/) - IT Documentation and CMDB. `AGPL-3.0` `PHP`
-- [iTop](https://www.combodo.com/itop-193) - Complete ITIL web based service management tool. ([Source Code](https://sourceforge.net/projects/itop/files/)) `AGPL-3.0` `PHP`
-- [netbox](https://netbox.dev/) - IP address management (IPAM) and data center infrastructure management (DCIM) tool. ([Demo](https://demo.netbox.dev/), [Source Code](https://github.com/netbox-community/netbox)) `Apache-2.0` `Python`
+- [Collins](https://tumblr.github.io/collins/) - Tumblr 的基础设施事实与知识源。([源码](https://github.com/tumblr/collins)) `Apache-2.0` `Docker/Scala`
+- [i-doit](https://www.i-doit.org/) - IT 文档与 CMDB。`AGPL-3.0` `PHP`
+- [iTop](https://www.combodo.com/itop-193) - 完整的 ITIL Web 服务管理工具。([源码](https://sourceforge.net/projects/itop/files/)) `AGPL-3.0` `PHP`
+- [netbox](https://netbox.dev/) - IP 地址管理（IPAM）和数据中心基础设施管理（DCIM）工具。([演示](https://demo.netbox.dev/), [源码](https://github.com/netbox-community/netbox)) `Apache-2.0` `Python`
 
 
-### Continuous Integration & Continuous Deployment
+### 持续集成与持续部署
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)/[deployment](https://en.wikipedia.org/wiki/Continuous_deployment) software.
+[持续集成](https://en.wikipedia.org/wiki/Continuous_integration)/[持续部署](https://en.wikipedia.org/wiki/Continuous_deployment) 软件。
 
-- [Buildbot](https://buildbot.net/) - Python-based toolkit for continuous integration. ([Source Code](https://github.com/buildbot/buildbot)) `GPL-2.0` `Python`
-- [CDS](https://ovh.github.io/cds/) - Enterprise-Grade Continuous Delivery & DevOps Automation Open Source Platform. ([Source Code](https://github.com/ovh/cds)) `BSD-3-Clause` `Go`
-- [Concourse](https://concourse-ci.org/) - Concourse is a CI tool that treats pipelines as first class objects and containerizes every step along the way. ([Demo](https://ci.concourse-ci.org/), [Source Code](https://github.com/concourse/concourse)) `Apache-2.0` `Go`
-- [drone](https://drone.io/) - Drone is a Continuous Delivery platform built on Docker, written in Go. ([Source Code](https://github.com/drone/drone)) `Apache-2.0` `Go`
-- [Factor](https://www.factor.io/) - Programmatically define and run workflows to connect configuration management, source code management, build, continuous integration, continuous deployment and communication tools. ([Source Code](https://github.com/factor-io/factor)) `MIT` `Ruby`
-- [GitLab CI](https://about.gitlab.com/solutions/continuous-integration/) - Gitlab's built-in, full-featured CI/CD solution. ([Source Code](https://gitlab.com/gitlab-org/gitlab-foss)) `MIT` `Ruby`
-- [GoCD](https://www.go.cd/) - Continuous delivery server. ([Source Code](https://github.com/gocd/gocd)) `Apache-2.0` `Java/Ruby`
-- [Jenkins](https://jenkins-ci.org/) - Continuous Integration Server. ([Source Code](https://github.com/jenkinsci/jenkins/)) `MIT` `Java`
-- [Laminar](https://laminar.ohwg.net) - Fast, lightweight, simple and flexible Continuous Integration. ([Source Code](https://github.com/ohwgiles/laminar)) `GPL-3.0` `C++`
-- [PHP Censor](https://github.com/php-censor/php-censor) - Open source self-hosted continuous integration server for PHP projects. `BSD-2-Clause` `PHP`
-- [Strider](https://strider-cd.github.io/) - Open Source Continuous Deployment / Continuous Integration platform. ([Source Code](https://github.com/Strider-CD/strider)) `MIT` `Nodejs`
-- [Terrateam](https://terrateam.io) - GitOps-first automation platform for Terraform and OpenTofu workflows with support for self-hosted runners. ([Source Code](https://github.com/terrateamio/terrateam)) `MPL-2.0` `OCaml/Docker`
-- [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images and deploying to Kubernetes via GitOps. ([Source Code](https://github.com/werf/werf)) `Apache-2.0` `Go`
-- [Woodpecker](https://woodpecker-ci.org/) - Community fork of Drone that uses Docker containers. ([Source Code](https://github.com/woodpecker-ci/woodpecker)) `Apache-2.0` `Go`
+- [Buildbot](https://buildbot.net/) - 基于 Python 的持续集成工具包。([源码](https://github.com/buildbot/buildbot)) `GPL-2.0` `Python`
+- [CDS](https://ovh.github.io/cds/) - 企业级持续交付与 DevOps 自动化开源平台。([源码](https://github.com/ovh/cds)) `BSD-3-Clause` `Go`
+- [Concourse](https://concourse-ci.org/) - 以流水线为一等公民、每一步都容器化的 CI 工具。([演示](https://ci.concourse-ci.org/), [源码](https://github.com/concourse/concourse)) `Apache-2.0` `Go`
+- [drone](https://drone.io/) - 基于 Docker、用 Go 编写的持续交付平台。([源码](https://github.com/drone/drone)) `Apache-2.0` `Go`
+- [Factor](https://www.factor.io/) - 以编程方式定义和运行工作流，连接配置管理、源码管理、构建、CI/CD 和通信工具。([源码](https://github.com/factor-io/factor)) `MIT` `Ruby`
+- [GitLab CI](https://about.gitlab.com/solutions/continuous-integration/) - GitLab 内置的全功能 CI/CD 解决方案。([源码](https://gitlab.com/gitlab-org/gitlab-foss)) `MIT` `Ruby`
+- [GoCD](https://www.go.cd/) - 持续交付服务器。([源码](https://github.com/gocd/gocd)) `Apache-2.0` `Java/Ruby`
+- [Jenkins](https://jenkins-ci.org/) - 持续集成服务器。([源码](https://github.com/jenkinsci/jenkins/)) `MIT` `Java`
+- [Laminar](https://laminar.ohwg.net) - 快速、轻量、简单且灵活的持续集成。([源码](https://github.com/ohwgiles/laminar)) `GPL-3.0` `C++`
+- [PHP Censor](https://github.com/php-censor/php-censor) - 面向 PHP 项目的自托管持续集成服务器。`BSD-2-Clause` `PHP`
+- [Strider](https://strider-cd.github.io/) - 开源持续部署/持续集成平台。([源码](https://github.com/Strider-CD/strider)) `MIT` `Nodejs`
+- [Terrateam](https://terrateam.io) - 针对 Terraform 和 OpenTofu 工作流的 GitOps 优先自动化平台，支持自托管运行器。([源码](https://github.com/terrateamio/terrateam)) `MPL-2.0` `OCaml/Docker`
+- [werf](https://werf.io/) - 用于构建 Docker 镜像并通过 GitOps 部署到 Kubernetes 的开源 CI/CD 工具。([源码](https://github.com/werf/werf)) `Apache-2.0` `Go`
+- [Woodpecker](https://woodpecker-ci.org/) - Drone 的社区分支，使用 Docker 容器。([源码](https://github.com/woodpecker-ci/woodpecker)) `Apache-2.0` `Go`
 
 
-### Control Panels
+### 控制面板
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Web hosting and server or service control panels.
+Web 托管与服务器或服务控制面板。
 
-- [Ajenti](https://ajenti.org/) - Control panel for Linux and BSD. ([Source Code](https://github.com/ajenti/ajenti)) `MIT` `Python/Shell`
-- [Cockpit](https://cockpit-project.org/) - Web-based graphical interface for servers. ([Source Code](https://github.com/cockpit-project/cockpit)) `LGPL-2.1` `C`
-- [Froxlor](https://froxlor.org/) - Lightweight server management software with Nginx and PHP-FPM support. ([Source Code](https://github.com/Froxlor/Froxlor/)) `GPL-2.0` `PHP`
-- [HestiaCP](https://hestiacp.com/) - Web server control panel (fork of VestaCP). ([Demo](https://demo.hestiacp.com:8083/login/), [Source Code](https://github.com/hestiacp/hestiacp)) `GPL-3.0` `PHP/Shell/Other`
-- [ISPConfig](https://www.ispconfig.org) - Manage Linux servers directly through your browser. ([Source Code](https://git.ispconfig.org/ispconfig/ispconfig3)) `BSD-3-Clause` `PHP`
-- [Sentora](https://sentora.org/) - Open-Source Web hosting control panel for Linux, BSD (fork of ZPanel). ([Source Code](https://github.com/sentora/sentora-core)) `GPL-3.0` `PHP`
-- [Virtualmin](https://www.virtualmin.com/) - Powerful and flexible web hosting control panel for Linux and BSD systems. ([Source Code](https://github.com/virtualmin)) `GPL-3.0` `Shell/Perl/Other`
-- [Webmin](https://www.webmin.com/) - Web-based interface for system administration for Unix. ([Source Code](https://github.com/webmin/webmin)) `BSD-3-Clause` `Perl`
+- [Ajenti](https://ajenti.org/) - Linux 和 BSD 的控制面板。([源码](https://github.com/ajenti/ajenti)) `MIT` `Python/Shell`
+- [Cockpit](https://cockpit-project.org/) - 服务器的 Web 图形界面。([源码](https://github.com/cockpit-project/cockpit)) `LGPL-2.1` `C`
+- [Froxlor](https://froxlor.org/) - 轻量级服务器管理软件，支持 Nginx 和 PHP-FPM。([源码](https://github.com/Froxlor/Froxlor/)) `GPL-2.0` `PHP`
+- [HestiaCP](https://hestiacp.com/) - Web 服务器控制面板（VestaCP 分支）。([演示](https://demo.hestiacp.com:8083/login/), [源码](https://github.com/hestiacp/hestiacp)) `GPL-3.0` `PHP/Shell/Other`
+- [ISPConfig](https://www.ispconfig.org) - 通过浏览器直接管理 Linux 服务器。([源码](https://git.ispconfig.org/ispconfig/ispconfig3)) `BSD-3-Clause` `PHP`
+- [Sentora](https://sentora.org/) - Linux、BSD 的开源 Web 托管控制面板（ZPanel 分支）。([源码](https://github.com/sentora/sentora-core)) `GPL-3.0` `PHP`
+- [Virtualmin](https://www.virtualmin.com/) - Linux 和 BSD 系统的强大灵活的 Web 托管控制面板。([源码](https://github.com/virtualmin)) `GPL-3.0` `Shell/Perl/Other`
+- [Webmin](https://www.webmin.com/) - Unix 系统管理的 Web 界面。([源码](https://github.com/webmin/webmin)) `BSD-3-Clause` `Perl`
 
 
-### Databases
+### 数据库
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Database servers.
+数据库服务器。
 
-**Please visit [dbdb.io - Database of Databases](https://dbdb.io/)**
+**请访问 [dbdb.io - Database of Databases](https://dbdb.io/)**
 
-_See also: [awesome-selfhosted/Database Management](https://awesome-selfhosted.net/tags/database-management.html)_
+_另见：[awesome-selfhosted/Database Management](https://awesome-selfhosted.net/tags/database-management.html)_
 
 
 
-### Deployment Automation
+### 部署自动化
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Tools and scripts to support deployments to your servers.
+支持服务器部署的工具和脚本。
 
-- [Capistrano](https://capistranorb.com/) - Deploy your application to any number of machines simultaneously, in sequence or as a rolling set via SSH (rake based). ([Source Code](https://github.com/capistrano/capistrano)) `MIT` `Ruby`
-- [CloudSlang](https://www.cloudslang.io/) - Flow-based orchestration tool for managing deployed applications, with Docker capabilities. ([Source Code](https://github.com/CloudSlang/score)) `Apache-2.0` `Java`
-- [CloudStack](https://cloudstack.apache.org/) - Cloud computing software for creating, managing, and deploying infrastructure cloud services. ([Source Code](https://github.com/apache/cloudstack)) `Apache-2.0` `Java/Python`
-- [Cobbler](https://cobbler.github.io/) - Cobbler is a Linux installation server that allows for rapid setup of network installation environments. ([Source Code](https://github.com/cobbler/cobbler)) `GPL-2.0` `Python`
-- [Fabric](https://www.fabfile.org/) - Python library and cli tool for streamlining the use of SSH for application deployment or systems administration tasks. ([Source Code](https://github.com/fabric/fabric)) `BSD-2-Clause` `Python`
-- [Genesis](https://github.com/starkandwayne/genesis) - A template framework for multi-environment BOSH deployments. `MIT` `Perl`
-- [munki](https://www.munki.org/munki/) - Webserver-based repository of packages and package metadata, that allows macOS administrators to manage software installs. ([Source Code](https://github.com/munki/munki)) `Apache-2.0` `Python`
-- [Overcast](https://andrewchilds.github.io/overcast/) - Deploy VMs across different cloud providers, and run commands and scripts across any or all of them in parallel via SSH. ([Source Code](https://github.com/andrewchilds/overcast)) `MIT` `Nodejs`
+- [Capistrano](https://capistranorb.com/) - 通过 SSH（基于 rake）同时、顺序或滚动方式将应用部署到任意数量的机器。([源码](https://github.com/capistrano/capistrano)) `MIT` `Ruby`
+- [CloudSlang](https://www.cloudslang.io/) - 基于流程的编排工具，用于管理已部署应用，支持 Docker。([源码](https://github.com/CloudSlang/score)) `Apache-2.0` `Java`
+- [CloudStack](https://cloudstack.apache.org/) - 用于创建、管理和部署基础设施云服务的云计算软件。([源码](https://github.com/apache/cloudstack)) `Apache-2.0` `Java/Python`
+- [Cobbler](https://cobbler.github.io/) - Linux 安装服务器，可快速搭建网络安装环境。([源码](https://github.com/cobbler/cobbler)) `GPL-2.0` `Python`
+- [Fabric](https://www.fabfile.org/) - 用于简化通过 SSH 部署应用或系统管理任务的 Python 库和 CLI 工具。([源码](https://github.com/fabric/fabric)) `BSD-2-Clause` `Python`
+- [Genesis](https://github.com/starkandwayne/genesis) - 多环境 BOSH 部署的模板框架。`MIT` `Perl`
+- [munki](https://www.munki.org/munki/) - 基于 Web 服务器的软件包及元数据仓库，便于 macOS 管理员管理软件安装。([源码](https://github.com/munki/munki)) `Apache-2.0` `Python`
+- [Overcast](https://andrewchilds.github.io/overcast/) - 跨云服务商部署虚拟机，并通过 SSH 并行运行命令和脚本。([源码](https://github.com/andrewchilds/overcast)) `MIT` `Nodejs`
 
 
-### Diagramming
+### 绘图
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Tools used to create diagrams of networks, flows, etc.
+用于创建网络、流程等图表的工具。
 
-- [Diagrams.net](https://app.diagrams.net/) - A.K.A. [Draw.io](https://app.diagrams.net/). Easy to use Diagram UI with a plethora of templates. ([Source Code](https://github.com/jgraph/drawio)) `Apache-2.0` `JavaScript/Docker`
-- [Kroki](https://kroki.io) - API for generating diagrams from textual descriptions. ([Source Code](https://github.com/yuzutech/kroki)) `MIT` `Java`
-- [Mermaid](https://mermaid-js.github.io/mermaid-live-editor/) - Javascript module with a unique, easy, shorthand syntax. Integrates into several other tools like Grafana. ([Source Code](https://github.com/mermaid-js/mermaid-live-editor)) `MIT` `Nodejs/Docker`
+- [Diagrams.net](https://app.diagrams.net/) - 又名 [Draw.io](https://app.diagrams.net/)。易用的图表 UI，内置丰富模板。([源码](https://github.com/jgraph/drawio)) `Apache-2.0` `JavaScript/Docker`
+- [Kroki](https://kroki.io) - 基于文本描述生成图表的 API。([源码](https://github.com/yuzutech/kroki)) `MIT` `Java`
+- [Mermaid](https://mermaid-js.github.io/mermaid-live-editor/) - 具有独特简洁语法的 JavaScript 绘图模块，可集成到 Grafana 等多种工具。([源码](https://github.com/mermaid-js/mermaid-live-editor)) `MIT` `Nodejs/Docker`
 
 
-### Distributed Filesystems
+### 分布式文件系统
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Network distributed filesystems.
+网络分布式文件系统。
 
-_See also: [awesome-selfhosted/File Transfer - Object Storage & File Servers](https://awesome-selfhosted.net/tags/file-transfer---object-storage--file-servers.html)_
+_另见：[awesome-selfhosted/File Transfer - Object Storage & File Servers](https://awesome-selfhosted.net/tags/file-transfer---object-storage--file-servers.html)_
 
-- [Ceph](https://ceph.com/en/) - Distributed object, block, and file storage platform. ([Source Code](https://github.com/ceph/ceph)) `LGPL-3.0` `C++`
-- [DRBD](https://linbit.com/drbd/) - Distributed replicated storage system, implemented as a Linux kernel driver. ([Source Code](https://github.com/LINBIT/drbd)) `GPL-2.0` `C`
-- [GlusterFS](https://www.gluster.org/) - Software-defined distributed storage that can scale to several petabytes, with interfaces for object, block and file storage. ([Source Code](https://github.com/gluster/glusterfs)) `GPL-2.0/LGPL-3.0` `C`
-- [Hadoop Distributed Filesystem (HDFS)](https://hadoop.apache.org/) - Distributed file system that provides high-throughput access to application data. ([Source Code](https://github.com/apache/hadoop)) `Apache-2.0` `Java`
-- [JuiceFS](https://juicefs.com/) - Distributed POSIX file system built on top of Redis and S3. ([Source Code](https://github.com/juicedata/juicefs)) `Apache-2.0` `Go`
-- [Kubo](https://github.com/ipfs/kubo) - Implementation of IPFS, a global, versioned, peer-to-peer filesystem that seeks to connect all computing devices with the same system of files. `Apache-2.0/MIT` `Go`
-- [LeoFS](https://leo-project.net) - Highly available, distributed, replicated eventually consistent object/blob store. ([Source Code](https://github.com/leo-project/leofs)) `Apache-2.0` `Erlang`
-- [Lustre](https://www.lustre.org/) - Parallel distributed file system, generally used for large-scale cluster computing. ([Source Code](https://git.whamcloud.com/?p=fs/lustre-release.git;a=summary)) `GPL-2.0` `C`
-- [Minio](https://min.io/) - High-performance, S3 compatible object store built for large scale AI/ML, data lake and database workloads. ([Source Code](https://github.com/minio/minio)) `AGPL-3.0` `Go`
-- [MooseFS](https://moosefs.com/) - Fault tolerant, network distributed file system. ([Source Code](https://github.com/moosefs/moosefs)) `GPL-2.0` `C`
-- [OpenAFS](https://www.openafs.org/) - Distributed network file system with read-only replicas and multi-OS support. ([Source Code](https://git.openafs.org/?p=openafs.git;a=summary)) `IPL-1.0` `C`
-- [Openstack Swift](https://docs.openstack.org/developer/swift/) - A highly available, distributed, eventually consistent object/blob store. ([Source Code](https://opendev.org/openstack/swift)) `Apache-2.0` `Python`
-- [Perkeep](https://perkeep.org/) - A set of open source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data (previously Camlistore). ([Source Code](https://github.com/perkeep/perkeep)) `Apache-2.0` `C`
-- [TahoeLAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - Secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system. ([Source Code](https://github.com/tahoe-lafs/tahoe-lafs)) `GPL-2.0` `Python`
-- [XtreemFS](https://www.xtreemfs.org/) - Distributed, replicated and fault-tolerant file system for federated IT infrastructures.. ([Source Code](https://github.com/xtreemfs/xtreemfs)) `BSD-3-Clause` `Java`
+- [Ceph](https://ceph.com/en/) - 分布式对象、块和文件存储平台。([源码](https://github.com/ceph/ceph)) `LGPL-3.0` `C++`
+- [DRBD](https://linbit.com/drbd/) - 分布式复制存储系统，作为 Linux 内核驱动实现。([源码](https://github.com/LINBIT/drbd)) `GPL-2.0` `C`
+- [GlusterFS](https://www.gluster.org/) - 软件定义的分布式存储，可扩展到数 PB，支持对象、块和文件存储接口。([源码](https://github.com/gluster/glusterfs)) `GPL-2.0/LGPL-3.0` `C`
+- [Hadoop Distributed Filesystem (HDFS)](https://hadoop.apache.org/) - 提供高吞吐量访问应用数据的分布式文件系统。([源码](https://github.com/apache/hadoop)) `Apache-2.0` `Java`
+- [JuiceFS](https://juicefs.com/) - 基于 Redis 和 S3 构建的分布式 POSIX 文件系统。([源码](https://github.com/juicedata/juicefs)) `Apache-2.0` `Go`
+- [Kubo](https://github.com/ipfs/kubo) - IPFS 的实现，一个全球、版本化、点对点的文件系统，旨在连接所有计算设备。`Apache-2.0/MIT` `Go`
+- [LeoFS](https://leo-project.net) - 高可用、分布式、最终一致性的对象/Blob 存储。([源码](https://github.com/leo-project/leofs)) `Apache-2.0` `Erlang`
+- [Lustre](https://www.lustre.org/) - 并行分布式文件系统，常用于大规模集群计算。([源码](https://git.whamcloud.com/?p=fs/lustre-release.git;a=summary)) `GPL-2.0` `C`
+- [Minio](https://min.io/) - 高性能、兼容 S3 的对象存储，适用于大规模 AI/ML、数据湖和数据库工作负载。([源码](https://github.com/minio/minio)) `AGPL-3.0` `Go`
+- [MooseFS](https://moosefs.com/) - 容错的网络分布式文件系统。([源码](https://github.com/moosefs/moosefs)) `GPL-2.0` `C`
+- [OpenAFS](https://www.openafs.org/) - 支持只读副本和多操作系统的分布式网络文件系统。([源码](https://git.openafs.org/?p=openafs.git;a=summary)) `IPL-1.0` `C`
+- [Openstack Swift](https://docs.openstack.org/developer/swift/) - 高可用、分布式、最终一致性的对象/Blob 存储。([源码](https://opendev.org/openstack/swift)) `Apache-2.0` `Python`
+- [Perkeep](https://perkeep.org/) - 一组用于建模、存储、搜索、共享和同步数据的开源格式、协议和软件（前身为 Camlistore）。([源码](https://github.com/perkeep/perkeep)) `Apache-2.0` `C`
+- [TahoeLAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - 安全、去中心化、容错的点对点分布式数据存储和文件系统。([源码](https://github.com/tahoe-lafs/tahoe-lafs)) `GPL-2.0` `Python`
+- [XtreemFS](https://www.xtreemfs.org/) - 面向联合 IT 基础设施的分布式、复制和容错文件系统。([源码](https://github.com/xtreemfs/xtreemfs)) `BSD-3-Clause` `Java`
 
 
-### DNS - Control Panels & Domain Management
+### DNS - 控制面板与域名管理
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-DNS server control panels, web interfaces and domain management tools.
+DNS 服务器控制面板、Web 界面和域名管理工具。
 
-_Related: [DNS - Servers](#dns---servers)_
+_相关：[DNS - 服务器](#dns---servers)_
 
-_See also: [awesome-selfhosted/DNS](https://awesome-selfhosted.net/tags/dns.html)_
+_另见：[awesome-selfhosted/DNS](https://awesome-selfhosted.net/tags/dns.html)_
 
-- [Atomia DNS](https://github.com/atomia/atomiadns/) - DNS management system. `ISC` `Perl`
-- [Designate](https://wiki.openstack.org/wiki/Designate) - DNSaaS services for OpenStack. ([Source Code](https://opendev.org/openstack/designate)) `Apache-2.0` `Python`
-- [DNSControl](https://stackexchange.github.io/dnscontrol/) - Synchronize your DNS to multiple providers from a simple DSL. ([Source Code](https://github.com/StackExchange/dnscontrol)) `MIT` `Go/Docker`
-- [DomainMOD](https://domainmod.org) - Manage your domains and other internet assets in a central location. ([Source Code](https://github.com/domainmod/domainmod)) `GPL-3.0` `PHP`
-- [nsupdate.info](https://www.nsupdate.info/) - Dynamic DNS service. ([Demo](https://www.nsupdate.info/account/register/), [Source Code](https://github.com/nsupdate-info/nsupdate.info)) `BSD-3-Clause` `Python`
-- [octoDNS](https://github.com/github/octodns) - DNS as code - Tools for managing DNS across multiple providers. `MIT` `Python`
-- [Poweradmin](https://www.poweradmin.org/) - Web-based DNS control panel for PowerDNS server. ([Source Code](https://github.com/poweradmin/poweradmin)) `GPL-3.0` `PHP`
-- [SPF Toolbox](https://spftoolbox.com) - Application to look up DNS records such as SPF, MX, Whois, and more. ([Source Code](https://github.com/charlesabarnes/SPFtoolbox)) `MIT` `PHP`
+- [Atomia DNS](https://github.com/atomia/atomiadns/) - DNS 管理系统。`ISC` `Perl`
+- [Designate](https://wiki.openstack.org/wiki/Designate) - OpenStack 的 DNSaaS 服务。([源码](https://opendev.org/openstack/designate)) `Apache-2.0` `Python`
+- [DNSControl](https://stackexchange.github.io/dnscontrol/) - 使用简单 DSL 同步多个提供商的 DNS。([源码](https://github.com/StackExchange/dnscontrol)) `MIT` `Go/Docker`
+- [DomainMOD](https://domainmod.org) - 在中心位置管理你的域名和其他互联网资产。([源码](https://github.com/domainmod/domainmod)) `GPL-3.0` `PHP`
+- [nsupdate.info](https://www.nsupdate.info/) - 动态 DNS 服务。([演示](https://www.nsupdate.info/account/register/), [源码](https://github.com/nsupdate-info/nsupdate.info)) `BSD-3-Clause` `Python`
+- [octoDNS](https://github.com/github/octodns) - DNS 即代码 - 管理多提供商 DNS 的工具。`MIT` `Python`
+- [Poweradmin](https://www.poweradmin.org/) - PowerDNS 服务器的 Web 控制面板。([源码](https://github.com/poweradmin/poweradmin)) `GPL-3.0` `PHP`
+- [SPF Toolbox](https://spftoolbox.com) - 用于查询 SPF、MX、Whois 等 DNS 记录的应用。([源码](https://github.com/charlesabarnes/SPFtoolbox)) `MIT` `PHP`
 
 
 ### DNS - Servers
