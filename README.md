@@ -513,6 +513,38 @@ _相关：[指标与指标采集](#metrics--metric-collection)_
 - [Zabbix](https://www.zabbix.com/) - 企业级网络与应用监控软件。([源码](https://git.zabbix.com/projects/ZBX/repos/zabbix/browse)) `GPL-2.0` `C`
 
 
+### 网络配置管理
+
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
+
+网络配置管理工具。
+
+- [GNS3](https://www.gns3.com/) - 图形化网络模拟器，支持多种虚拟设备。([源码](https://github.com/GNS3/gns3-gui/)) `GPL-3.0` `Python`
+- [OpenWISP](https://openwisp.org/) - 基于 OpenWRT 路由器和接入点的开源网络管理系统。([演示](https://openwisp.org/demo.html), [源码](https://github.com/openwisp)) `GPL-3.0` `Python`
+- [Oxidized](https://github.com/ytti/oxidized) - 网络设备配置备份工具。`Apache-2.0` `Ruby`
+- [phpIPAM](https://phpipam.net/) - 开源 IP 地址管理，支持 PowerDNS 集成。([源码](https://github.com/phpipam/phpipam)) `GPL-3.0` `PHP`
+- [RANCID](https://www.shrubbery.net/rancid/) - 监控网络设备配置并维护变更历史。([源码](https://github.com/haussli/rancid)) `BSD-3-Clause` `Perl/Shell`
+- [rConfig](https://www.rconfig.com/) - 网络设备配置管理工具。([源码](https://github.com/rconfig/rconfig)) `GPL-3.0` `PHP`
+
+
+### PaaS
+
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
+
+[平台即服务（PaaS）](https://en.wikipedia.org/wiki/Platform_as_a_service) 软件允许用户无需构建和维护底层基础设施即可部署、运行和管理计算平台及应用。也包括[无服务器计算](https://en.wikipedia.org/wiki/Serverless_computing)和[函数即服务（FaaS）](https://en.wikipedia.org/wiki/Function_as_a_service)软件。
+
+- [CapRover](https://caprover.com/) - 几分钟内搭建自己的 PaaS。([演示](https://captain.server.demo.caprover.com/#/login), [源码](https://github.com/caprover/caprover)) `Apache-2.0` `Docker/Nodejs`
+- [Coolify](https://coolify.io/) - 开源自托管 Heroku/Netlify 替代方案。([源码](https://github.com/coollabsio/coolify)) `Apache-2.0` `Docker`
+- [Dokku](https://dokku.com/) - 开源 PaaS（Heroku 替代）。([源码](https://github.com/dokku/dokku)) `MIT` `Docker/Shell/Go/deb`
+- [fx](https://github.com/metrue/fx) - 让你在自有服务器上轻松实现 FaaS 的工具。`MIT` `Go`
+- [Kubero](https://www.kubero.dev/) - 基于 Kubernetes 的自托管 Heroku PaaS 替代，支持 GitOps。([演示](https://demo.kubero.dev/), [源码](https://github.com/kubero-dev/kubero)) `GPL-3.0` `K8S/Nodejs/Go`
+- [LocalStack](https://localstack.cloud/) - 本地 AWS 云栈模拟器，支持 Lambda 等无服务器计算。([源码](https://github.com/localstack/localstack)) `Apache-2.0` `Python/Docker/K8S`
+- [Nhost](https://nhost.io/) - GraphQL 的 Firebase 替代方案，几分钟内配置好数据库和后端。([源码](https://github.com/nhost/nhost)) `MIT` `Docker/Nodejs/Go`
+- [OpenFaaS](https://www.openfaas.com/) - Docker 和 Kubernetes 的无服务器函数平台。([源码](https://github.com/openfaas/faas)) `MIT` `Go`
+- [Tau](https://taubyte.com) - 轻松构建云计算平台，支持无服务器 WebAssembly、前端托管、CI/CD、对象存储、K/V 数据库和消息队列。([源码](https://github.com/taubyte/tau)) `BSD-3-Clause` `Go/Rust/Docker`
+- [Trusted-CGI](https://github.com/reddec/trusted-cgi) - 轻量级自托管 lambda/应用/cgi/无服务器函数平台。`MIT` `Go/deb/Docker`
+
+
 ### 打包
 
 **[`^        返回顶部        ^`](#awesome-sysadmin)**
