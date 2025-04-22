@@ -299,432 +299,398 @@ _另见：[awesome-selfhosted/DNS](https://awesome-selfhosted.net/tags/dns.html)
 - [SPF Toolbox](https://spftoolbox.com) - 用于查询 SPF、MX、Whois 等 DNS 记录的应用。([源码](https://github.com/charlesabarnes/SPFtoolbox)) `MIT` `PHP`
 
 
-### DNS - Servers
+### DNS - 服务器
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[DNS](https://en.wikipedia.org/wiki/Name_server) servers.
+[DNS](https://en.wikipedia.org/wiki/Name_server) 服务器。
 
-_Related: [DNS - Control Panels & Domain Management](#dns---control-panels--domain-management)_
+_相关：[DNS - 控制面板与域名管理](#dns---控制面板与域名管理)_
 
-_See also: [awesome-selfhosted/DNS](https://awesome-selfhosted.net/tags/dns.html)_
+_另见：[awesome-selfhosted/DNS](https://awesome-selfhosted.net/tags/dns.html)_
 
-- [Bind](https://www.isc.org/bind/) - Versatile, classic, complete name server software. ([Source Code](https://gitlab.isc.org/isc-projects/bind9)) `MPL-2.0` `C`
-- [CoreDNS](https://coredns.io/) - Flexible DNS server. ([Source Code](https://github.com/coredns/coredns)) `Apache-2.0` `Go`
-- [djbdns](https://cr.yp.to/djbdns.html) - A collection of DNS applications, including tinydns. ([Source Code](https://salsa.debian.org/debian/djbdns)) `CC0-1.0` `C`
-- [dnsmasq](https://www.thekelleys.org.uk/dnsmasq/doc.html) - Provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot. ([Source Code](https://thekelleys.org.uk/gitweb/?p=dnsmasq.git;a=tree)) `GPL-2.0` `C`
-- [Knot](https://www.knot-dns.cz/) - High performance authoritative-only DNS server. ([Source Code](https://gitlab.nic.cz/knot/knot-dns)) `GPL-3.0` `C`
-- [NSD](https://www.nlnetlabs.nl/projects/nsd/about/) - Authoritative DNS name server developed speed, reliability, stability and security. ([Source Code](https://github.com/NLnetLabs/nsd)) `BSD-3-Clause` `C`
-- [PowerDNS Authoritative Server](https://doc.powerdns.com/authoritative/) - Versatile nameserver which supports a large number of backends. ([Source Code](https://github.com/PowerDNS/pdns)) `GPL-2.0` `C++`
-- [Unbound](https://nlnetlabs.nl/projects/unbound/about/) - Validating, recursive, and caching DNS resolver. ([Source Code](https://github.com/NLnetLabs/unbound)) `BSD-3-Clause` `C`
-- [Yadifa](https://www.yadifa.eu/) - Clean, small, light and RFC-compliant name server implementation developed from scratch by .eu. ([Source Code](https://github.com/yadifa/yadifa)) `BSD-3-Clause` `C`
+- [Bind](https://www.isc.org/bind/) - 多功能、经典、完整的名称服务器软件。([源码](https://gitlab.isc.org/isc-projects/bind9)) `MPL-2.0` `C`
+- [CoreDNS](https://coredns.io/) - 灵活的 DNS 服务器。([源码](https://github.com/coredns/coredns)) `Apache-2.0` `Go`
+- [djbdns](https://cr.yp.to/djbdns.html) - 一组 DNS 应用，包括 tinydns。([源码](https://salsa.debian.org/debian/djbdns)) `CC0-1.0` `C`
+- [dnsmasq](https://www.thekelleys.org.uk/dnsmasq/doc.html) - 为小型网络提供 DNS、DHCP、路由通告和网络引导等基础设施。([源码](https://thekelleys.org.uk/gitweb/?p=dnsmasq.git;a=tree)) `GPL-2.0` `C`
+- [Knot](https://www.knot-dns.cz/) - 高性能权威 DNS 服务器。([源码](https://gitlab.nic.cz/knot/knot-dns)) `GPL-3.0` `C`
+- [NSD](https://www.nlnetlabs.nl/projects/nsd/about/) - 以速度、可靠性、稳定性和安全性为目标开发的权威 DNS 名称服务器。([源码](https://github.com/NLnetLabs/nsd)) `BSD-3-Clause` `C`
+- [PowerDNS Authoritative Server](https://doc.powerdns.com/authoritative/) - 支持多种后端的多功能名称服务器。([源码](https://github.com/PowerDNS/pdns)) `GPL-2.0` `C++`
+- [Unbound](https://nlnetlabs.nl/projects/unbound/about/) - 支持验证、递归和缓存的 DNS 解析器。([源码](https://github.com/NLnetLabs/unbound)) `BSD-3-Clause` `C`
+- [Yadifa](https://www.yadifa.eu/) - 由 .eu 从零开发，简洁、小巧、轻量且符合 RFC 的名称服务器实现。([源码](https://github.com/yadifa/yadifa)) `BSD-3-Clause` `C`
 
 
-### Editors
+### 编辑器
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Open-source code editors.
+开源代码编辑器。
 
-- [Atom Community](https://github.com/atom-community/atom) - A fork of [atom](https://github.com/atom/atom) A hackable text editor from Github. `MIT` `JavaScript`
-- [Brackets](https://brackets.io/) - Code editor for web designers and front-end developers. ([Source Code](https://github.com/brackets-cont/brackets)) `MIT` `JavaScript`
-- [Eclipse](https://www.eclipse.org/) - IDE written in Java with an extensible plug-in system. ([Source Code](https://git.eclipse.org/c/)) `EPL-1.0` `Java`
-- [Geany](https://www.geany.org/) - GTK2 text editor. ([Source Code](https://github.com/geany/geany)) `GPL-2.0` `C/C++`
-- [GNU Emacs](https://www.gnu.org/software/emacs/) - An extensible, customizable text editor-and more. ([Source Code](https://github.com/emacs-mirror/emacs)) `GPL-3.0` `C`
-- [Haroopad](http://pad.haroopress.com/) - Markdown editor with live preview. ([Source Code](https://github.com/rhiokim/haroopad)) `GPL-3.0` `JavaScript`
-- [jotgit](https://github.com/jdleesmiller/jotgit) - Git-backed real-time collaborative code editing. `MIT` `Nodejs`
-- [KDevelop](https://www.kdevelop.org/) - IDE by the people behind KDE. ([Source Code](https://invent.kde.org/kdevelop/kdevelop)) `GFDL-1.2` `C++`
-- [Micro](https://micro-editor.github.io/) - A modern and intuitive terminal-based text editor. ([Source Code](https://github.com/zyedidia/micro)) `MIT` `Go`
-- [Nano](https://nano-editor.org) - Easy to use, customizable text editor. ([Source Code](https://git.savannah.gnu.org/cgit/nano.git/tree/)) `GPL-3.0` `C`
-- [Notepad++](https://notepad-plus-plus.org/) - GPLv2 multi-language editor with syntax highlighting for Windows. ([Source Code](https://github.com/notepad-plus-plus/notepad-plus-plus)) `GPL-2.0` `C++`
-- [TextMate](https://macromates.com/) - A graphical text editor for OS X. ([Source Code](https://github.com/textmate/textmate/)) `GPL-3.0` `C++`
-- [Vim](https://www.vim.org) - A highly configurable text editor built to enable efficient editing. ([Source Code](https://github.com/vim/vim)) `Vim` `C`
-- [VSCodium](https://vscodium.com/) - An open source cross-platform extensible code editor based on [VS Code by Microsoft](https://code.visualstudio.com/) removing their non-free additions. ([Source Code](https://github.com/VSCodium/vscodium)) `MIT` `TypeScript`
+- [Atom Community](https://github.com/atom-community/atom) - [atom](https://github.com/atom/atom) 的分支，来自 Github 的可定制文本编辑器。`MIT` `JavaScript`
+- [Brackets](https://brackets.io/) - 面向网页设计师和前端开发者的代码编辑器。([源码](https://github.com/brackets-cont/brackets)) `MIT` `JavaScript`
+- [Eclipse](https://www.eclipse.org/) - 用 Java 编写、可扩展插件系统的 IDE。([源码](https://git.eclipse.org/c/)) `EPL-1.0` `Java`
+- [Geany](https://www.geany.org/) - 基于 GTK2 的文本编辑器。([源码](https://github.com/geany/geany)) `GPL-2.0` `C/C++`
+- [GNU Emacs](https://www.gnu.org/software/emacs/) - 可扩展、可定制的文本编辑器及更多功能。([源码](https://github.com/emacs-mirror/emacs)) `GPL-3.0` `C`
+- [Haroopad](http://pad.haroopress.com/) - 支持实时预览的 Markdown 编辑器。([源码](https://github.com/rhiokim/haroopad)) `GPL-3.0` `JavaScript`
+- [jotgit](https://github.com/jdleesmiller/jotgit) - 基于 Git 的实时协作代码编辑。`MIT` `Nodejs`
+- [KDevelop](https://www.kdevelop.org/) - KDE 团队开发的 IDE。([源码](https://invent.kde.org/kdevelop/kdevelop)) `GFDL-1.2` `C++`
+- [Micro](https://micro-editor.github.io/) - 现代直观的终端文本编辑器。([源码](https://github.com/zyedidia/micro)) `MIT` `Go`
+- [Nano](https://nano-editor.org) - 易用、可定制的文本编辑器。([源码](https://git.savannah.gnu.org/cgit/nano.git/tree/)) `GPL-3.0` `C`
+- [Notepad++](https://notepad-plus-plus.org/) - GPLv2 多语言编辑器，支持 Windows 语法高亮。([源码](https://github.com/notepad-plus-plus/notepad-plus-plus)) `GPL-2.0` `C++`
+- [TextMate](https://macromates.com/) - OS X 图形化文本编辑器。([源码](https://github.com/textmate/textmate/)) `GPL-3.0` `C++`
+- [Vim](https://www.vim.org) - 高度可配置的文本编辑器，提升编辑效率。([源码](https://github.com/vim/vim)) `Vim` `C`
+- [VSCodium](https://vscodium.com/) - 基于 [微软 VS Code](https://code.visualstudio.com/) 的开源跨平台可扩展代码编辑器，去除了非自由部分。([源码](https://github.com/VSCodium/vscodium)) `MIT` `TypeScript`
 
 
-### Identity Management
+### 身份管理
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[Identity management](https://en.wikipedia.org/wiki/Identity_management) (IdM), also known as identity and access management (IAM or IdAM), is a framework of policies and technologies to ensure that the right users (that are part of the ecosystem connected to or within an enterprise) have the appropriate access to technology resources.
+[身份管理](https://en.wikipedia.org/wiki/Identity_management)（IdM），也称为身份与访问管理（IAM 或 IdAM），是一套政策和技术框架，确保生态系统内或与企业连接的正确用户拥有对技术资源的适当访问权限。
 
-**Please visit [Identity Management - LDAP](#identity-management---ldap), [Identity Management - Tools and web interfaces](#identity-management---tools-and-web-interfaces), [Identity Management - Single Sign-On SSO](#identity-management---single-sign-on-sso)**
+**请访问 [身份管理 - LDAP](#identity-management---ldap)、[身份管理 - 工具与 Web 界面](#identity-management---tools-and-web-interfaces)、[身份管理 - 单点登录 SSO](#identity-management---single-sign-on-sso)**
 
 
 
-### Identity Management - LDAP
+### 身份管理 - LDAP
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[Lightweight Directory Access Protocol (LDAP)](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol) is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network.
+[轻量级目录访问协议（LDAP）](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol) 是一种开放、中立、行业标准的应用协议，用于通过 IP 网络访问和维护分布式目录信息服务。
 
-- [389 Directory Server](https://www.port389.org/) - Enterprise-class Open Source LDAP server for Linux. ([Source Code](https://github.com/389ds/389-ds-base)) `GPL-3.0` `C`
-- [Apache Directory Server](https://directory.apache.org/apacheds/) - Extensible and embeddable directory server, certified LDAPv3 compatible, with Kerberos 5 and Change Password Protocol support, triggers, stored procedures, queues and views. ([Source Code](https://github.com/apache/directory-server)) `Apache-2.0` `Java`
-- [FreeIPA](https://www.freeipa.org/) - Integrated security information management solution combining Linux (Fedora), 389 Directory Server, Kerberos, NTP, DNS, and Dogtag Certificate System (web interface and command-line administration tools). ([Source Code](https://pagure.io/freeipa)) `GPL-3.0` `Python/C/JavaScript`
-- [FreeRADIUS](https://freeradius.org/) - Multi-protocol policy server (radiusd) that implements RADIUS, DHCP, BFD, and ARP and associated client/PAM library/Apache module. ([Source Code](https://github.com/FreeRADIUS/freeradius-server)) `GPL-2.0` `C`
-- [lldap](https://github.com/nitnelave/lldap) - Light (simplified) LDAP implementation with a simple, intuitive web interface and GraphQL support. `GPL-3.0` `Rust`
-- [OpenLDAP](https://www.openldap.org/) - Open-source implementation of the Lightweight Directory Access Protocol (server, libraries and clients). ([Source Code](https://git.openldap.org/openldap/openldap)) `OLDAP-2.8` `C`
+- [389 Directory Server](https://www.port389.org/) - 企业级开源 LDAP 服务器，适用于 Linux。([源码](https://github.com/389ds/389-ds-base)) `GPL-3.0` `C`
+- [Apache Directory Server](https://directory.apache.org/apacheds/) - 可扩展、可嵌入的目录服务器，兼容 LDAPv3，支持 Kerberos 5、变更密码协议、触发器、存储过程、队列和视图。([源码](https://github.com/apache/directory-server)) `Apache-2.0` `Java`
+- [FreeIPA](https://www.freeipa.org/) - 集成安全信息管理解决方案，结合 Linux（Fedora）、389 Directory Server、Kerberos、NTP、DNS 和 Dogtag 证书系统（Web 界面和命令行管理工具）。([源码](https://pagure.io/freeipa)) `GPL-3.0` `Python/C/JavaScript`
+- [FreeRADIUS](https://freeradius.org/) - 多协议策略服务器（radiusd），实现 RADIUS、DHCP、BFD 和 ARP 及相关客户端/PAM 库/Apache 模块。([源码](https://github.com/FreeRADIUS/freeradius-server)) `GPL-2.0` `C`
+- [lldap](https://github.com/nitnelave/lldap) - 轻量级（简化版）LDAP 实现，带有简单直观的 Web 界面和 GraphQL 支持。`GPL-3.0` `Rust`
+- [OpenLDAP](https://www.openldap.org/) - 轻量级目录访问协议的开源实现（服务器、库和客户端）。([源码](https://git.openldap.org/openldap/openldap)) `OLDAP-2.8` `C`
 
 
-### Identity Management - Single Sign-On (SSO)
+### 身份管理 - 单点登录（SSO）
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[Single sign-on (SSO)](https://en.wikipedia.org/wiki/Single_sign-on) is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems. 
+[单点登录（SSO）](https://en.wikipedia.org/wiki/Single_sign-on) 是一种认证方案，允许用户使用单一身份登录多个相关但独立的软件系统。
 
-- [Authelia](https://www.authelia.com/) - The Single Sign-On Multi-Factor portal for web apps. ([Source Code](https://github.com/authelia/authelia)) `Apache-2.0` `Go`
-- [Authentik](https://goauthentik.io/) - Flexible identity provider with support for different protocols. (OAuth 2.0, SAML, LDAP and Radius). ([Source Code](https://github.com/goauthentik/authentik)) `MIT` `Python`
-- [KeyCloak](https://www.keycloak.org) - Open Source Identity and Access Management. ([Source Code](https://github.com/keycloak/keycloak)) `Apache-2.0` `Java`
+- [Authelia](https://www.authelia.com/) - Web 应用的单点登录多因素门户。([源码](https://github.com/authelia/authelia)) `Apache-2.0` `Go`
+- [Authentik](https://goauthentik.io/) - 灵活的身份提供者，支持多种协议（OAuth 2.0、SAML、LDAP 和 Radius）。([源码](https://github.com/goauthentik/authentik)) `MIT` `Python`
+- [KeyCloak](https://www.keycloak.org) - 开源身份与访问管理。([源码](https://github.com/keycloak/keycloak)) `Apache-2.0` `Java`
 
 
-### Identity Management - Tools and web interfaces
+### 身份管理 - 工具与 Web 界面
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Miscellaneous utilities and web interfaces for identity management systems.
+身份管理系统的各种工具和 Web 界面。
 
-- [BounCA](https://bounca.org/) - A personal SSL Key / Certificate Authority web-based tool for creating self-signed certificates. ([Source Code](https://gitlab.com/bounca/bounca/)) `Apache-2.0` `Python`
-- [easy-rsa](https://github.com/OpenVPN/easy-rsa) - Bash script to build and manage a PKI CA. `GPL-2.0` `Shell`
-- [Fusion Directory](https://www.fusiondirectory.org) - Improve the Management of the services and the company directory based on OpenLDAP. ([Source Code](https://github.com/fusiondirectory/fusiondirectory)) `GPL-2.0` `PHP`
-- [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/lamcms/) - Web frontend for managing entries (e.g. users, groups, DHCP settings) stored in an LDAP directory. ([Source Code](https://github.com/LDAPAccountManager/lam/)) `GPL-3.0` `PHP`
-- [Libravatar](https://www.libravatar.org/) - Libravatar is a service which delivers your avatar (profile picture) to other websites. ([Source Code](https://git.linux-kernel.at/oliver/ivatar/)) `AGPL-3.0` `Python`
-- [Pomerium](https://www.pomerium.io/) - An identity and context aware access-proxy inspired by BeyondCorp. ([Source Code](https://github.com/pomerium/pomerium)) `Apache-2.0` `Docker/Go`
-- [Samba](https://www.samba.org/) - Active Directory and CIFS protocol implementation. ([Source Code](https://download.samba.org/pub/samba/)) `GPL-3.0` `C`
-- [Smallstep Certificates](https://smallstep.com/certificates/) - A private certificate authority (X.509 & SSH) and related tools for secure automated certificate management. ([Source Code](https://github.com/smallstep/certificates)) `Apache-2.0` `Go`
-- [ZITADEL](https://zitadel.com/) - Cloud-native Identity & Access Management solution providing a platform for secure authentication, authorization and identity management. ([Source Code](https://github.com/zitadel/zitadel)) `Apache-2.0` `Go/Docker/K8S`
+- [BounCA](https://bounca.org/) - 个人 SSL 密钥/证书颁发机构 Web 工具，用于创建自签名证书。([源码](https://gitlab.com/bounca/bounca/)) `Apache-2.0` `Python`
+- [easy-rsa](https://github.com/OpenVPN/easy-rsa) - 用于构建和管理 PKI CA 的 Bash 脚本。`GPL-2.0` `Shell`
+- [Fusion Directory](https://www.fusiondirectory.org) - 基于 OpenLDAP 的企业目录和服务管理。([源码](https://github.com/fusiondirectory/fusiondirectory)) `GPL-2.0` `PHP`
+- [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/lamcms/) - 用于管理 LDAP 目录中条目（如用户、组、DHCP 设置）的 Web 前端。([源码](https://github.com/LDAPAccountManager/lam/)) `GPL-3.0` `PHP`
+- [Libravatar](https://www.libravatar.org/) - 向其他网站分发头像（个人资料图片）的服务。([源码](https://git.linux-kernel.at/oliver/ivatar/)) `AGPL-3.0` `Python`
+- [Pomerium](https://www.pomerium.io/) - 受 BeyondCorp 启发的身份与上下文感知访问代理。([源码](https://github.com/pomerium/pomerium)) `Apache-2.0` `Docker/Go`
+- [Samba](https://www.samba.org/) - Active Directory 和 CIFS 协议实现。([源码](https://download.samba.org/pub/samba/)) `GPL-3.0` `C`
+- [Smallstep Certificates](https://smallstep.com/certificates/) - 私有证书颁发机构（X.509 & SSH）及相关自动化证书管理工具。([源码](https://github.com/smallstep/certificates)) `Apache-2.0` `Go`
+- [ZITADEL](https://zitadel.com/) - 云原生身份与访问管理解决方案，提供安全认证、授权和身份管理平台。([源码](https://github.com/zitadel/zitadel)) `Apache-2.0` `Go/Docker/K8S`
 
 
-### IT Asset Management
+### IT 资产管理
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-IT [asset management](https://en.wikipedia.org/wiki/Asset_management) software.
+IT [资产管理](https://en.wikipedia.org/wiki/Asset_management) 软件。
 
-- [GLPI](https://www.glpi-project.org/) - Information Resource-Manager with an additional Administration Interface. ([Source Code](https://github.com/glpi-project/glpi)) `GPL-3.0` `PHP`
-- [OCS Inventory NG](https://ocsinventory-ng.org/) - Asset management and deployment solution for all devices in your IT Department. ([Source Code](https://github.com/OCSInventory-NG)) `GPL-2.0` `PHP/Perl`
-- [OPSI](https://www.opsi.org) - Hardware and software inventory, client management, deployment, and patching for Linux and Windows. ([Source Code](https://github.com/opsi-org/)) `GPL-3.0/AGPL-3.0` `OVF/Python`
-- [RackTables](https://racktables.org/) - Datacenter and server room asset management like document hardware assets, network addresses, space in racks, networks configuration. ([Demo](https://www.racktables.org/demo.php), [Source Code](https://github.com/RackTables/racktables)) `GPL-2.0` `PHP`
-- [Ralph](https://ralph.allegro.tech/) - Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks. ([Demo](https://github.com/allegro/ralph#live-demo), [Source Code](https://github.com/allegro/ralph)) `Apache-2.0` `Python/Docker`
-- [Snipe IT](https://snipeitapp.com/) - Asset & license management software. ([Source Code](https://github.com/snipe/snipe-it)) `AGPL-3.0` `PHP`
+- [GLPI](https://www.glpi-project.org/) - 信息资源管理器，带有额外的管理界面。([源码](https://github.com/glpi-project/glpi)) `GPL-3.0` `PHP`
+- [OCS Inventory NG](https://ocsinventory-ng.org/) - 适用于 IT 部门所有设备的资产管理与部署解决方案。([源码](https://github.com/OCSInventory-NG)) `GPL-2.0` `PHP/Perl`
+- [OPSI](https://www.opsi.org) - Linux 和 Windows 的硬件/软件清单、客户端管理、部署和补丁。([源码](https://github.com/opsi-org/)) `GPL-3.0/AGPL-3.0` `OVF/Python`
+- [RackTables](https://racktables.org/) - 数据中心和机房资产管理，如硬件资产、网络地址、机架空间、网络配置等文档化。([演示](https://www.racktables.org/demo.php), [源码](https://github.com/RackTables/racktables)) `GPL-2.0` `PHP`
+- [Ralph](https://ralph.allegro.tech/) - 适用于大型数据中心和小型局域网的资产管理、DCIM 和 CMDB 系统。([演示](https://github.com/allegro/ralph#live-demo), [源码](https://github.com/allegro/ralph)) `Apache-2.0` `Python/Docker`
+- [Snipe IT](https://snipeitapp.com/) - 资产与许可证管理软件。([源码](https://github.com/snipe/snipe-it)) `AGPL-3.0` `PHP`
 
 
-### Log Management
+### 日志管理
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Log management tools: collect, parse, visualize...
+日志管理工具：收集、解析、可视化等。
 
-- [Fluentd](https://www.fluentd.org/) - Data collector for unified logging layer. ([Source Code](https://github.com/fluent/fluentd)) `Apache-2.0` `Ruby`
-- [Flume](https://flume.apache.org/) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data. ([Source Code](https://github.com/apache/flume)) `Apache-2.0` `Java`
-- [GoAccess](https://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal or through the browser. ([Source Code](https://github.com/allinurl/goaccess)) `MIT` `C`
-- [Loki](https://grafana.com/oss/loki/) - Log aggregation system designed to store and query logs from all your applications and infrastructure. ([Source Code](https://github.com/grafana/loki)) `AGPL-3.0` `Go`
-- [rsyslog](https://www.rsyslog.com/) - Rocket-fast system for log processing. ([Source Code](https://github.com/rsyslog/rsyslog)) `GPL-3.0` `C`
+- [Fluentd](https://www.fluentd.org/) - 统一日志层的数据收集器。([源码](https://github.com/fluent/fluentd)) `Apache-2.0` `Ruby`
+- [Flume](https://flume.apache.org/) - 高效收集、聚合和传输大量日志数据的分布式、可靠服务。([源码](https://github.com/apache/flume)) `Apache-2.0` `Java`
+- [GoAccess](https://goaccess.io/) - 实时 Web 日志分析器和交互式查看器，可在终端或浏览器中运行。([源码](https://github.com/allinurl/goaccess)) `MIT` `C`
+- [Loki](https://grafana.com/oss/loki/) - 日志聚合系统，设计用于存储和查询所有应用和基础设施的日志。([源码](https://github.com/grafana/loki)) `AGPL-3.0` `Go`
+- [rsyslog](https://www.rsyslog.com/) - 超快的日志处理系统。([源码](https://github.com/rsyslog/rsyslog)) `GPL-3.0` `C`
 
 
-### Mail Clients
+### 邮件客户端
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-An [email client](https://en.wikipedia.org/wiki/Email_client), email reader or, more formally, message user agent (MUA) or mail user agent is a computer program used to access and manage a user's email. 
+[邮件客户端](https://en.wikipedia.org/wiki/Email_client)，又称邮件阅读器或消息用户代理（MUA），是用于访问和管理用户电子邮件的计算机程序。
 
-- [aerc](https://aerc-mail.org/) - Terminal MUA with a focus on plaintext and features for developers. ([Source Code](https://git.sr.ht/~rjarry/aerc)) `MIT` `Go`
-- [Claws Mail](http://www.claws-mail.org/) - Old school email client (and news reader), based on GTK+. ([Source Code](https://git.claws-mail.org/?p=claws.git;a=tree)) `GPL-3.0` `C`
-- [ImapSync](http://imapsync.lamiral.info/) - Simple IMAP migration tool for copying mailboxes to other servers. ([Source Code](https://github.com/imapsync/imapsync)) `NLPL` `Perl`
-- [Mutt](http://www.mutt.org/) - Small but very powerful text-based mail client. ([Source Code](https://gitlab.com/muttmua/mutt)) `GPL-2.0` `C`
-- [Sylpheed](https://sylpheed.sraoss.jp/en/) - Still developed predecessor to Claws Mail, lightweight mail client. ([Source Code](https://github.com/sylpheed-mail/sylpheed)) `GPL-2.0` `C`
-- [Thunderbird](https://www.thunderbird.net/) - Free email application that's easy to set up and customize. ([Source Code](https://hg.mozilla.org/comm-central/file)) `MPL-2.0` `C/C++`
+- [aerc](https://aerc-mail.org/) - 以纯文本和开发者功能为重点的终端邮件客户端。([源码](https://git.sr.ht/~rjarry/aerc)) `MIT` `Go`
+- [Claws Mail](http://www.claws-mail.org/) - 基于 GTK+ 的老牌邮件客户端（及新闻阅读器）。([源码](https://git.claws-mail.org/?p=claws.git;a=tree)) `GPL-3.0` `C`
+- [ImapSync](http://imapsync.lamiral.info/) - 简单的 IMAP 邮箱迁移工具，可将邮箱复制到其他服务器。([源码](https://github.com/imapsync/imapsync)) `NLPL` `Perl`
+- [Mutt](http://www.mutt.org/) - 小巧但功能强大的文本邮件客户端。([源码](https://gitlab.com/muttmua/mutt)) `GPL-2.0` `C`
+- [Sylpheed](https://sylpheed.sraoss.jp/en/) - Claws Mail 的前身，仍在开发的轻量级邮件客户端。([源码](https://github.com/sylpheed-mail/sylpheed)) `GPL-2.0` `C`
+- [Thunderbird](https://www.thunderbird.net/) - 免费、易于设置和自定义的邮件应用。([源码](https://hg.mozilla.org/comm-central/file)) `MPL-2.0` `C/C++`
 
 
-### Metrics & Metric Collection
+### 指标与指标采集
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Metric gathering and display software.
+指标采集与展示软件。
 
-_Related: [Databases](#databases), [Monitoring](#monitoring)_
+_相关：[数据库](#databases)、[监控](#monitoring)_
 
-- [Beats](https://www.elastic.co/beats/) - Single-purpose data shippers that send data from hundreds or thousands of machines and systems to Logstash or Elasticsearch. ([Source Code](https://github.com/elastic/beats)) `Apache-2.0` `Go`
-- [Collectd](https://collectd.org/) - System statistics collection daemon. ([Source Code](https://github.com/collectd/collectd)) `MIT` `C`
-- [Diamond](https://github.com/python-diamond/Diamond) - Daemon that collects system metrics and publishes them to Graphite (and others). `MIT` `Python`
-- [Grafana](https://grafana.com/) - A Graphite & InfluxDB Dashboard and Graph Editor. ([Source Code](https://github.com/grafana/grafana)) `AGPL-3.0` `Go`
-- [Graphite](https://graphite.readthedocs.org/en/latest/) - Scalable graphing server. ([Source Code](https://github.com/graphite-project/graphite-web)) `Apache-2.0` `Python`
-- [RRDtool](https://oss.oetiker.ch/rrdtool/) - Industry standard, high performance data logging and graphing system for time series data. ([Source Code](https://github.com/oetiker/rrdtool-1.x)) `GPL-2.0` `C`
-- [Statsd](https://github.com/etsy/statsd/) - Daemon that listens for statistics like counters and timers, sent over UDP or TCP, and sends aggregates to one or more pluggable backend services. `MIT` `Nodejs`
-- [tcollector](http://opentsdb.net/docs/build/html/user_guide/utilities/tcollector.html) - Gathers data from local collectors and pushes the data to OpenTSDB. ([Source Code](https://github.com/OpenTSDB/tcollector/)) `LGPL-3.0/GPL-3.0` `Python`
-- [Telegraf](https://github.com/influxdata/telegraf) - Plugin-driven server agent for collecting, processing, aggregating, and writing metrics. `MIT` `Go`
+- [Beats](https://www.elastic.co/beats/) - 单一用途的数据收集器，将数据从数百或数千台机器发送到 Logstash 或 Elasticsearch。([源码](https://github.com/elastic/beats)) `Apache-2.0` `Go`
+- [Collectd](https://collectd.org/) - 系统统计信息收集守护进程。([源码](https://github.com/collectd/collectd)) `MIT` `C`
+- [Diamond](https://github.com/python-diamond/Diamond) - 收集系统指标并发布到 Graphite（及其他）的守护进程。`MIT` `Python`
+- [Grafana](https://grafana.com/) - Graphite 和 InfluxDB 的仪表盘与图形编辑器。([源码](https://github.com/grafana/grafana)) `AGPL-3.0` `Go`
+- [Graphite](https://graphite.readthedocs.org/en/latest/) - 可扩展的图形服务器。([源码](https://github.com/graphite-project/graphite-web)) `Apache-2.0` `Python`
+- [RRDtool](https://oss.oetiker.ch/rrdtool/) - 行业标准、高性能的时间序列数据记录与绘图系统。([源码](https://github.com/oetiker/rrdtool-1.x)) `GPL-2.0` `C`
+- [Statsd](https://github.com/etsy/statsd/) - 监听计数器、定时器等统计信息的守护进程，通过 UDP 或 TCP 接收并聚合后发送到后端服务。`MIT` `Nodejs`
+- [tcollector](http://opentsdb.net/docs/build/html/user_guide/utilities/tcollector.html) - 从本地采集器收集数据并推送到 OpenTSDB。([源码](https://github.com/OpenTSDB/tcollector/)) `LGPL-3.0/GPL-3.0` `Python`
+- [Telegraf](https://github.com/influxdata/telegraf) - 插件驱动的服务器代理，用于采集、处理、聚合和写入指标。`MIT` `Go`
 
 
-### Miscellaneous
+### 杂项
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Software that does not fit in another section.
+未归入其他分类的软件。
 
-- [Chocolatey](https://chocolatey.org/) - The package manager for Windows. ([Source Code](https://github.com/chocolatey/choco)) `Apache-2.0` `C#/PowerShell`
-- [Clonezilla](https://clonezilla.org/) - Partition and disk imaging/cloning program. ([Source Code](https://clonezilla.org/downloads/src/)) `GPL-2.0` `Perl/Shell/Other`
-- [DadaMail](https://dadamailproject.com/) - Mailing List Manager, written in Perl. ([Source Code](https://sourceforge.net/projects/dadamail/files/)) `GPL-2.0` `Perl`
-- [Fog](https://www.fogproject.org/) - Cloning/imaging solution/rescue suite. ([Source Code](https://github.com/FOGProject/fogproject)) `GPL-3.0` `PHP/Shell`
-- [phpList](https://www.phplist.org/) - Newsletter and email marketing software. ([Source Code](https://github.com/phpList/phplist3)) `AGPL-3.0` `PHP`
+- [Chocolatey](https://chocolatey.org/) - Windows 的包管理器。([源码](https://github.com/chocolatey/choco)) `Apache-2.0` `C#/PowerShell`
+- [Clonezilla](https://clonezilla.org/) - 分区和磁盘镜像/克隆程序。([源码](https://clonezilla.org/downloads/src/)) `GPL-2.0` `Perl/Shell/Other`
+- [DadaMail](https://dadamailproject.com/) - 用 Perl 编写的邮件列表管理器。([源码](https://sourceforge.net/projects/dadamail/files/)) `GPL-2.0` `Perl`
+- [Fog](https://www.fogproject.org/) - 克隆/镜像解决方案与救援套件。([源码](https://github.com/FOGProject/fogproject)) `GPL-3.0` `PHP/Shell`
+- [phpList](https://www.phplist.org/) - 邮件通讯与邮件营销软件。([源码](https://github.com/phpList/phplist3)) `AGPL-3.0` `PHP`
 
 
-### Monitoring
+### 监控
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Monitoring software.
+监控软件。
 
-_Related: [Metrics & Metric Collection](#metrics--metric-collection)_
+_相关：[指标与指标采集](#metrics--metric-collection)_
 
-- [Adagios](http://adagios.org/) - Web based Nagios interface for configuration and monitoring (replacement to the standard interface), and a REST interface. ([Source Code](https://github.com/opinkerfi/adagios)) `AGPL-3.0` `Docker/Python`
-- [Alerta](https://alerta.io/) - Distributed, scalable and flexible monitoring system. ([Source Code](https://github.com/alerta/alerta)) `Apache-2.0` `Python`
-- [Beszel](https://beszel.dev/) - Lightweight server monitoring platform that includes Docker statistics, historical data, and alert functions. ([Source Code](https://github.com/henrygd/beszel)) `MIT` `Go`
-- [Bloonix](https://bloonix-monitoring.org/) - Bloonix is a monitoring solution that helps businesses to ensure high availability and performance. ([Source Code](https://github.com/bloonix)) `GPL-3.0` `Perl`
-- [Cacti](https://www.cacti.net) - Web-based network monitoring and graphing tool. ([Source Code](https://github.com/Cacti/cacti)) `GPL-2.0` `PHP`
-- [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers. `Apache-2.0` `Go`
-- [checkmk](https://checkmk.com/) - Comprehensive solution for monitoring of applications, servers, and networks. ([Source Code](https://github.com/Checkmk/checkmk)) `GPL-2.0` `Python/PHP`
-- [dashdot](https://github.com/MauriceNino/dashdot) - A simple, modern server dashboard for smaller private servers. ([Demo](https://dash.mauz.dev/)) `MIT` `Nodejs/Docker`
-- [EdMon](https://github.com/Edraens/EdMon) - A command-line monitoring application helping you to check that your hosts and services are available, with notifications support. `MIT` `Java`
-- [eZ Server Monitor](https://www.ezservermonitor.com) - A lightweight and simple dashboard monitor for Linux, available in Web and Bash application. ([Source Code](https://github.com/shevabam/ezservermonitor-web)) `GPL-3.0` `PHP/Shell`
-- [glances](https://nicolargo.github.io/glances/) - Open-source, cross-platform real-time monitoring tool with CLI and web dashboard interfaces and many exporting options. ([Source Code](https://github.com/nicolargo/glances)) `GPL-3.0` `Python`
-- [Healthchecks](https://healthchecks.io/docs/self_hosted/) - Monitoring for cron jobs, background services and scheduled tasks. ([Source Code](https://github.com/healthchecks/healthchecks)) `BSD-3-Clause` `Python`
-- [Icinga](https://www.icinga.com/) - Nagios fork that has since lapped nagios several times. Comes with the possibility of clustered monitoring. ([Source Code](https://github.com/Icinga/icinga2)) `GPL-2.0` `C++`
-- [LibreNMS](https://www.librenms.org) - Fully featured network monitoring system that provides a wealth of features and device support. ([Source Code](https://github.com/librenms/librenms)) `GPL-3.0` `PHP`
-- [Linux Dash](https://github.com/afaqurk/linux-dash) - A low-overhead monitoring web dashboard for a GNU/Linux machine. `MIT` `Nodejs/Go/Python/PHP`
-- [Monit](https://mmonit.com/monit/#home) - Small utility for managing and monitoring Unix systems. ([Source Code](https://bitbucket.org/tildeslash/monit/src/master/)) `AGPL-3.0` `C`
-- [Munin](https://munin-monitoring.org/) - Networked resource monitoring tool. ([Source Code](https://github.com/munin-monitoring/munin)) `GPL-2.0` `Perl/Shell`
-- [Naemon](https://www.naemon.org/) - Network monitoring tool based on the Nagios 4 core with performance enhancements and new features. ([Source Code](https://github.com/naemon/naemon-core)) `GPL-2.0` `C`
-- [Nagios](https://www.nagios.org/) - Computer system, network and infrastructure monitoring software application. ([Source Code](https://github.com/NagiosEnterprises/nagioscore)) `GPL-2.0` `C`
-- [Netdata](https://www.netdata.cloud/) - Distributed, real-time, performance and health monitoring for systems and applications. Runs on Linux, FreeBSD, and MacOS. ([Source Code](https://github.com/netdata/netdata)) `GPL-3.0` `C`
-- [NetXMS](https://www.netxms.org/) - Open Source network and infrastructure monitoring and management. ([Source Code](https://github.com/netxms/netxms)) `LGPL-3.0/GPL-3.0` `Java/C++/C`
-- [Observium Community Edition](http://www.observium.org/) - Network monitoring and management platform that provides real-time insight into network health and performance. `QPL-1.0` `PHP`
-- [openITCOCKPIT Community Edition](https://openitcockpit.io/) - Monitoring Suite featuring seamless integrations with Naemon, Checkmk, Grafana and more. ([Demo](https://demo.openitcockpit.io/), [Source Code](https://github.com/it-novum/openITCOCKPIT)) `GPL-3.0` `deb/Docker`
-- [Performance Co-Pilot](http://pcp.io) - Lightweight, distributed system performance and analysis framework. ([Source Code](https://github.com/performancecopilot/pcp)) `LGPL-2.1/GPL-2.0` `C`
-- [PHP Server Monitor](https://www.phpservermonitor.org/) - Open source tool to monitor your servers and websites. ([Source Code](https://github.com/phpservermon/phpservermon)) `GPL-3.0` `PHP`
-- [PhpSysInfo](https://phpsysinfo.github.io/phpsysinfo/) - A customizable PHP script that displays information about your system nicely. ([Source Code](https://github.com/phpsysinfo/phpsysinfo)) `GPL-2.0` `PHP`
-- [Prometheus](https://prometheus.io/) - Service monitoring system and time series database. ([Source Code](https://github.com/prometheus/prometheus)) `Apache-2.0` `Go`
-- [Riemann](https://riemann.io/) - Flexible and fast events processor allowing complex events/metrics analysis. ([Source Code](https://github.com/riemann/riemann)) `EPL-1.0` `Java`
-- [rtop](https://github.com/rapidloop/rtop) - Interactive, remote system monitoring tool based on SSH. `MIT` `Go`
-- [ruptime](https://github.com/alexmyczko/ruptime) - Classic system status server. `AGPL-3.0` `Shell`
-- [Scrutiny](https://github.com/AnalogJ/scrutiny) - Web UI for hard drive S.M.A.R.T monitoring, historical trends & real-world failure thresholds. `MIT` `Go`
-- [Sensu](https://sensu.io/) - Monitoring tool for ephemeral infrastructure and distributed applications. ([Source Code](https://github.com/sensu/sensu-go)) `MIT` `Go`
-- [Status](https://github.com/dani3l0/Status) - Simple and lightweight system monitoring tool for small homeservers with a pleasant web interface. ([Demo](https://status.enshittification.social/) `MIT` `Python`
-- [Thruk](https://www.thruk.org/) - Multibackend monitoring web interface with support for Naemon, Nagios, Icinga and Shinken. ([Source Code](https://github.com/sni/Thruk)) `GPL-1.0` `Perl`
-- [Wazuh](https://wazuh.com/) - Unified XDR and SIEM protection for endpoints and cloud workloads. ([Source Code](https://github.com/wazuh/wazuh)) `GPL-2.0` `C`
-- [Zabbix](https://www.zabbix.com/) - Enterprise-class software for monitoring of networks and applications. ([Source Code](https://git.zabbix.com/projects/ZBX/repos/zabbix/browse)) `GPL-2.0` `C`
+- [Adagios](http://adagios.org/) - 基于 Web 的 Nagios 配置与监控界面（替代标准界面），并提供 REST 接口。([源码](https://github.com/opinkerfi/adagios)) `AGPL-3.0` `Docker/Python`
+- [Alerta](https://alerta.io/) - 分布式、可扩展且灵活的监控系统。([源码](https://github.com/alerta/alerta)) `Apache-2.0` `Python`
+- [Beszel](https://beszel.dev/) - 轻量级服务器监控平台，支持 Docker 统计、历史数据和告警功能。([源码](https://github.com/henrygd/beszel)) `MIT` `Go`
+- [Bloonix](https://bloonix-monitoring.org/) - 监控解决方案，帮助企业保障高可用性和性能。([源码](https://github.com/bloonix)) `GPL-3.0` `Perl`
+- [Cacti](https://www.cacti.net) - 基于 Web 的网络监控与绘图工具。([源码](https://github.com/Cacti/cacti)) `GPL-2.0` `PHP`
+- [cadvisor](https://github.com/google/cadvisor) - 分析运行中容器的资源使用和性能特征。`Apache-2.0` `Go`
+- [checkmk](https://checkmk.com/) - 应用、服务器和网络的综合监控解决方案。([源码](https://github.com/Checkmk/checkmk)) `GPL-2.0` `Python/PHP`
+- [dashdot](https://github.com/MauriceNino/dashdot) - 面向小型私有服务器的简单现代服务器仪表盘。([演示](https://dash.mauz.dev/)) `MIT` `Nodejs/Docker`
+- [EdMon](https://github.com/Edraens/EdMon) - 命令行监控应用，帮助检查主机和服务可用性，支持通知。`MIT` `Java`
+- [eZ Server Monitor](https://www.ezservermonitor.com) - 轻量级简单的 Linux 仪表盘监控，提供 Web 和 Bash 应用。([源码](https://github.com/shevabam/ezservermonitor-web)) `GPL-3.0` `PHP/Shell`
+- [glances](https://nicolargo.github.io/glances/) - 开源、跨平台的实时监控工具，支持 CLI 和 Web 仪表盘，多种导出选项。([源码](https://github.com/nicolargo/glances)) `GPL-3.0` `Python`
+- [Healthchecks](https://healthchecks.io/docs/self_hosted/) - 针对定时任务、后台服务和计划任务的监控。([源码](https://github.com/healthchecks/healthchecks)) `BSD-3-Clause` `Python`
+- [Icinga](https://www.icinga.com/) - Nagios 分支，功能已超越原版，支持集群监控。([源码](https://github.com/Icinga/icinga2)) `GPL-2.0` `C++`
+- [LibreNMS](https://www.librenms.org) - 功能丰富的网络监控系统，支持多种设备。([源码](https://github.com/librenms/librenms)) `GPL-3.0` `PHP`
+- [Linux Dash](https://github.com/afaqurk/linux-dash) - 针对 GNU/Linux 机器的低开销 Web 监控仪表盘。`MIT` `Nodejs/Go/Python/PHP`
+- [Monit](https://mmonit.com/monit/#home) - 管理和监控 Unix 系统的小工具。([源码](https://bitbucket.org/tildeslash/monit/src/master/)) `AGPL-3.0` `C`
+- [Munin](https://munin-monitoring.org/) - 网络资源监控工具。([源码](https://github.com/munin-monitoring/munin)) `GPL-2.0` `Perl/Shell`
+- [Naemon](https://www.naemon.org/) - 基于 Nagios 4 内核的网络监控工具，性能增强并有新特性。([源码](https://github.com/naemon/naemon-core)) `GPL-2.0` `C`
+- [Nagios](https://www.nagios.org/) - 计算机系统、网络和基础设施监控软件。([源码](https://github.com/NagiosEnterprises/nagioscore)) `GPL-2.0` `C`
+- [Netdata](https://www.netdata.cloud/) - 分布式、实时的系统与应用性能健康监控，支持 Linux、FreeBSD 和 MacOS。([源码](https://github.com/netdata/netdata)) `GPL-3.0` `C`
+- [NetXMS](https://www.netxms.org/) - 开源网络与基础设施监控和管理。([源码](https://github.com/netxms/netxms)) `LGPL-3.0/GPL-3.0` `Java/C++/C`
+- [Observium Community Edition](http://www.observium.org/) - 网络监控与管理平台，提供实时网络健康与性能洞察。`QPL-1.0` `PHP`
+- [openITCOCKPIT Community Edition](https://openitcockpit.io/) - 监控套件，支持与 Naemon、Checkmk、Grafana 等无缝集成。([演示](https://demo.openitcockpit.io/), [源码](https://github.com/it-novum/openITCOCKPIT)) `GPL-3.0` `deb/Docker`
+- [Performance Co-Pilot](http://pcp.io) - 轻量级、分布式系统性能分析框架。([源码](https://github.com/performancecopilot/pcp)) `LGPL-2.1/GPL-2.0` `C`
+- [PHP Server Monitor](https://www.phpservermonitor.org/) - 开源服务器和网站监控工具。([源码](https://github.com/phpservermon/phpservermon)) `GPL-3.0` `PHP`
+- [PhpSysInfo](https://phpsysinfo.github.io/phpsysinfo/) - 可自定义的 PHP 脚本，优雅展示系统信息。([源码](https://github.com/phpsysinfo/phpsysinfo)) `GPL-2.0` `PHP`
+- [Prometheus](https://prometheus.io/) - 服务监控系统与时序数据库。([源码](https://github.com/prometheus/prometheus)) `Apache-2.0` `Go`
+- [Riemann](https://riemann.io/) - 灵活快速的事件处理器，支持复杂事件/指标分析。([源码](https://github.com/riemann/riemann)) `EPL-1.0` `Java`
+- [rtop](https://github.com/rapidloop/rtop) - 基于 SSH 的交互式远程系统监控工具。`MIT` `Go`
+- [ruptime](https://github.com/alexmyczko/ruptime) - 经典系统状态服务器。`AGPL-3.0` `Shell`
+- [Scrutiny](https://github.com/AnalogJ/scrutiny) - 硬盘 S.M.A.R.T 监控 Web UI，支持历史趋势与真实故障阈值。`MIT` `Go`
+- [Sensu](https://sensu.io/) - 针对弹性基础设施和分布式应用的监控工具。([源码](https://github.com/sensu/sensu-go)) `MIT` `Go`
+- [Status](https://github.com/dani3l0/Status) - 适合小型家庭服务器的简单轻量系统监控工具，带美观 Web 界面。([演示](https://status.enshittification.social/)) `MIT` `Python`
+- [Thruk](https://www.thruk.org/) - 多后端监控 Web 界面，支持 Naemon、Nagios、Icinga 和 Shinken。([源码](https://github.com/sni/Thruk)) `GPL-1.0` `Perl`
+- [Wazuh](https://wazuh.com/) - 统一 XDR 与 SIEM，保护终端和云工作负载。([源码](https://github.com/wazuh/wazuh)) `GPL-2.0` `C`
+- [Zabbix](https://www.zabbix.com/) - 企业级网络与应用监控软件。([源码](https://git.zabbix.com/projects/ZBX/repos/zabbix/browse)) `GPL-2.0` `C`
 
 
-### Network Configuration Management
+### 打包
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-Network configuration management tools.
+[包管理器](https://en.wikipedia.org/wiki/Package_manager)或包管理系统是一组自动化安装、升级、配置和卸载计算机程序的软件工具，以一致的方式管理计算机上的软件。
 
-- [GNS3](https://www.gns3.com/) - Graphical network simulator that provides a variety of virtual appliances. ([Source Code](https://github.com/GNS3/gns3-gui/)) `GPL-3.0` `Python`
-- [OpenWISP](https://openwisp.org/) - Open Source Network Management System for OpenWRT based routers and access points. ([Demo](https://openwisp.org/demo.html), [Source Code](https://github.com/openwisp)) `GPL-3.0` `Python`
-- [Oxidized](https://github.com/ytti/oxidized) - Network device configuration backup tool. `Apache-2.0` `Ruby`
-- [phpIPAM](https://phpipam.net/) - Open source IP address management with PowerDNS integration. ([Source Code](https://github.com/phpipam/phpipam)) `GPL-3.0` `PHP`
-- [RANCID](https://www.shrubbery.net/rancid/) - Monitor network devices configuration and maintain history of changes. ([Source Code](https://github.com/haussli/rancid)) `BSD-3-Clause` `Perl/Shell`
-- [rConfig](https://www.rconfig.com/) - Network device configuration management tool. ([Source Code](https://github.com/rconfig/rconfig)) `GPL-3.0` `PHP`
+- [aptly](https://www.aptly.info/) - Debian 仓库管理的瑞士军刀。([源码](https://github.com/aptly-dev/aptly)) `MIT` `Go`
+- [fpm](https://fpm.readthedocs.io/en/latest/) - 多格式通用包创建工具。([源码](https://github.com/jordansissel/fpm)) `MIT` `Ruby`
+- [omnibus-ruby](https://github.com/chef/omnibus) - 跨平台轻松为项目创建全栈安装包。`Apache-2.0` `Ruby`
+- [tito](https://github.com/dgoodwin/tito) - 为基于 git 的项目构建 RPM 包。`GPL-2.0` `Python`
 
 
-### PaaS
+### 项目管理
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[Platform-as-a-Service](https://en.wikipedia.org/wiki/Platform_as_a_service) software allows customers to provision, instantiate, run, and manage a computing platform and one or more applications, without the complexity of building and maintaining the infrastructure typically associated with developing and launching the application. Also includes [Serverless computing](https://en.wikipedia.org/wiki/Serverless_computing) and [Function-as-a-service (FaaS)](https://en.wikipedia.org/wiki/Function_as_a_service) software.
+基于 Web 的项目管理和缺陷跟踪系统。
 
+**请访问 [awesome-selfhosted/Project Management](https://awesome-selfhosted.net/tags/software-development---project-management.html)**
 
-- [CapRover](https://caprover.com/) - Build your own PaaS in a few minutes. ([Demo](https://captain.server.demo.caprover.com/#/login), [Source Code](https://github.com/caprover/caprover)) `Apache-2.0` `Docker/Nodejs`
-- [Coolify](https://coolify.io/) - An open-source & self-hostable Heroku / Netlify alternative (and even more). ([Source Code](https://github.com/coollabsio/coolify)) `Apache-2.0` `Docker`
-- [Dokku](https://dokku.com/) - An open-source PaaS (alternative to Heroku). ([Source Code](https://github.com/dokku/dokku)) `MIT` `Docker/Shell/Go/deb`
-- [fx](https://github.com/metrue/fx) - A tool to help you do Function as a Service with painless on your own servers. `MIT` `Go`
-- [Kubero](https://www.kubero.dev/) - A self-hosted Heroku PaaS alternative for Kubernetes that implements GitOps. ([Demo](https://demo.kubero.dev/), [Source Code](https://github.com/kubero-dev/kubero)) `GPL-3.0` `K8S/Nodejs/Go`
-- [LocalStack](https://localstack.cloud/) - LocalStack is a fully functional local AWS cloud stack. This includes Lambda for serverless computation. ([Source Code](https://github.com/localstack/localstack)) `Apache-2.0` `Python/Docker/K8S`
-- [Nhost](https://nhost.io/) - Firebase Alternative with GraphQL. Get a database and backend configured and ready in minutes. ([Source Code](https://github.com/nhost/nhost)) `MIT` `Docker/Nodejs/Go`
-- [OpenFaaS](https://www.openfaas.com/) - Serverless Functions Made Simple for Docker & Kubernetes. ([Source Code](https://github.com/openfaas/faas)) `MIT` `Go`
-- [Tau](https://taubyte.com) - Easily build Cloud Computing Platforms with features like Serverless WebAssembly Functions, Frontend Hosting, CI/CD, Object Storage, K/V Database, and Pub-Sub Messaging. ([Source Code](https://github.com/taubyte/tau)) `BSD-3-Clause` `Go/Rust/Docker`
-- [Trusted-CGI](https://github.com/reddec/trusted-cgi) - Lightweight self-hosted lambda/applications/cgi/serverless-functions platform. `MIT` `Go/deb/Docker`
 
 
-### Packaging
+### 队列
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-A [package manager](https://en.wikipedia.org/wiki/Package_manager) or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.
+[消息队列](https://en.wikipedia.org/wiki/Message_queue)和[消息中间件](https://en.wikipedia.org/wiki/Message_broker)软件，通常用于进程间通信（IPC）或同一进程内线程间通信。
 
-- [aptly](https://www.aptly.info/) - Swiss army knife for Debian repository management. ([Source Code](https://github.com/aptly-dev/aptly)) `MIT` `Go`
-- [fpm](https://fpm.readthedocs.io/en/latest/) - Versatile multi format package creator. ([Source Code](https://github.com/jordansissel/fpm)) `MIT` `Ruby`
-- [omnibus-ruby](https://github.com/chef/omnibus) - Easily create full-stack installers for your project across a variety of platforms. `Apache-2.0` `Ruby`
-- [tito](https://github.com/dgoodwin/tito) - Builds RPMs for git-based projects. `GPL-2.0` `Python`
+_另见：[Cloud Native Landscape - Streaming & Messaging](https://landscape.cncf.io/?group=projects-and-products&view-mode=card#app-definition-and-development--streaming-messaging)_
 
+- [ActiveMQ](https://activemq.apache.org/) - Java 消息中间件。([源码](https://github.com/apache/activemq)) `Apache-2.0` `Java`
+- [BeanstalkD](https://beanstalkd.github.io/) - 简单快速的工作队列。([源码](https://github.com/beanstalkd/beanstalkd)) `MIT` `C`
+- [Gearman](http://gearman.org/) - 快速多语言队列/作业处理平台。([源码](https://github.com/gearman/gearmand)) `BSD-3-Clause` `C++`
+- [NSQ](https://nsq.io/) - 实时分布式消息平台。([源码](https://github.com/nsqio/nsq)) `MPL-2.0` `Go`
+- [ZeroMQ](https://zeromq.org/) - 轻量级队列系统。([源码](https://github.com/zeromq)) `GPL-3.0` `C++`
 
-### Project Management
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+### 远程桌面客户端
 
-Web-based project management and bug tracking systems.
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-**Please visit [awesome-selfhosted/Project Management](https://awesome-selfhosted.net/tags/software-development---project-management.html)**
+[远程桌面](https://en.wikipedia.org/wiki/Remote_desktop_software)客户端软件。
 
+_另见：[awesome-selfhosted/Remote Access](https://awesome-selfhosted.net/tags/remote-access.html)_
 
+- [Remmina](https://www.remmina.org/) - 功能丰富的 Linux 及类 Unix 远程桌面应用。([源码](https://gitlab.com/Remmina/Remmina)) `GPL-2.0` `C`
+- [Tiger VNC](https://tigervnc.org/) - 高性能多平台 VNC 客户端和服务器。([源码](https://github.com/TigerVNC/tigervnc)) `GPL-2.0` `C++`
+- [X2go](https://wiki.x2go.org/doku.php) - 基于 NoMachine/NX 协议的 Linux 远程桌面软件。([源码](https://code.x2go.org/gitweb)) `GPL-2.0` `Perl`
 
-### Queuing
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+### 路由器
 
-[Message queues](https://en.wikipedia.org/wiki/Message_queue) and [message broker](https://en.wikipedia.org/wiki/Message_broker) software, typically used for inter-process communication (IPC), or for inter-thread communication within the same process.
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-_See also: [Cloud Native Landscape - Streaming & Messaging](https://landscape.cncf.io/?group=projects-and-products&view-mode=card#app-definition-and-development--streaming-messaging)_
+用于管理[路由器](https://en.wikipedia.org/wiki/Router_(computing))硬件的软件。
 
-- [ActiveMQ](https://activemq.apache.org/) - Java message broker. ([Source Code](https://github.com/apache/activemq)) `Apache-2.0` `Java`
-- [BeanstalkD](https://beanstalkd.github.io/) - A simple, fast work queue. ([Source Code](https://github.com/beanstalkd/beanstalkd)) `MIT` `C`
-- [Gearman](http://gearman.org/) - Fast multi-language queuing/job processing platform. ([Source Code](https://github.com/gearman/gearmand)) `BSD-3-Clause` `C++`
-- [NSQ](https://nsq.io/) - A realtime distributed messaging platform. ([Source Code](https://github.com/nsqio/nsq)) `MPL-2.0` `Go`
-- [ZeroMQ](https://zeromq.org/) - Lightweight queuing system. ([Source Code](https://github.com/zeromq)) `GPL-3.0` `C++`
+- [DD-WRT](https://dd-wrt.com/) - 基于 Linux 的无线路由器和接入点固件，最初为 Linksys WRT54G 设计。([源码](https://svn.dd-wrt.com/)) `GPL-2.0` `C`
+- [OpenWrt](https://openwrt.org/) - 基于 Linux 的路由器，支持 Mesh 网络、Snort IPS、AQM 等多种功能。([源码](https://git.openwrt.org/openwrt/openwrt.git)) `GPL-2.0` `C`
+- [OPNsense](https://opnsense.org/) - 基于 FreeBSD 的开源防火墙和路由器，支持流量整形、负载均衡和 VPN。([源码](https://github.com/opnsense)) `BSD-2-Clause` `C/PHP`
+- [pfSense CE](https://www.pfsense.org/) - 基于 FreeBSD 的免费网络防火墙发行版，内核定制并集成第三方自由软件包。([源码](https://github.com/pfsense/pfsense)) `Apache-2.0` `Shell/PHP/Other`
 
 
-### Remote Desktop Clients
+### 服务发现
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[Remote Desktop](https://en.wikipedia.org/wiki/Remote_desktop_software) client software.
+[服务发现](https://en.wikipedia.org/wiki/Service_discovery) 是指在计算机网络中自动检测设备和服务的过程。
 
-_See also: [awesome-selfhosted/Remote Access](https://awesome-selfhosted.net/tags/remote-access.html)_
+- [Consul](https://www.consul.io/) - Consul 是一个用于服务发现、监控和配置的工具。([源码](https://github.com/hashicorp/consul)) `MPL-2.0` `Go`
+- [etcd](https://etcd.io/) - 分布式 K/V 存储，通过 SSL PKI 认证和 REST HTTP API 提供共享配置与服务发现。([源码](https://github.com/coreos/etcd)) `Apache-2.0` `Go`
+- [ZooKeeper](https://zookeeper.apache.org/) - ZooKeeper 是一个集中式服务，用于维护配置信息、命名、分布式同步和组服务。([源码](https://github.com/apache/zookeeper)) `Apache-2.0` `Java/C++`
 
-- [Remmina](https://www.remmina.org/) - Feature-rich remote desktop application for linux and other unixes. ([Source Code](https://gitlab.com/Remmina/Remmina)) `GPL-2.0` `C`
-- [Tiger VNC](https://tigervnc.org/) - High-performance, multi-platform VNC client and server. ([Source Code](https://github.com/TigerVNC/tigervnc)) `GPL-2.0` `C++`
-- [X2go](https://wiki.x2go.org/doku.php) - X2Go is an open source remote desktop software for Linux that uses the NoMachine/NX technology protocol. ([Source Code](https://code.x2go.org/gitweb)) `GPL-2.0` `Perl`
 
+### 软件容器
 
-### Router
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+[操作系统级](https://en.wikipedia.org/wiki/OS-level_virtualization)虚拟化。
 
-Software for management of [router](https://en.wikipedia.org/wiki/Router_(computing)) hardware.
+- [Docker Compose](https://docs.docker.com/compose/) - 定义和运行多容器 Docker 应用。([源码](https://github.com/docker/compose)) `Apache-2.0` `Go`
+- [Docker Swarm](https://docs.docker.com/engine/swarm/) - 管理 Docker 引擎集群。([源码](https://github.com/moby/swarmkit)) `Apache-2.0` `Go`
+- [Docker](https://www.docker.com/) - 为开发者和系统管理员构建、发布和运行分布式应用的平台。([源码](https://www.docker.com/community/open-source/)) `Apache-2.0` `Go`
+- [LXC](https://linuxcontainers.org/lxc/) - Linux 内核容器特性的用户空间接口。([源码](https://github.com/lxc/lxc)) `GPL-2.0` `C`
+- [LXD](https://linuxcontainers.org/lxd/) - 容器“管理器”，为 LXC 提供更好的用户体验。([源码](https://github.com/lxc/lxd)) `Apache-2.0` `Go`
+- [OpenVZ](https://openvz.org) - Linux 的基于容器的虚拟化。([源码](https://src.openvz.org/projects/OVZ)) `GPL-2.0` `C`
+- [Podman](https://podman.io) - 无守护进程的容器引擎，支持以 root 或 rootless 模式运行。可直接 `alias docker=podman`。([源码](https://github.com/containers/podman)) `Apache-2.0` `Go`
+- [Portainer Community Edition](https://www.portainer.io/) - 简单易用的 Docker 管理界面。([源码](https://github.com/portainer/portainer)) `Zlib` `Go`
+- [systemd-nspawn](https://www.freedesktop.org/software/systemd/man/systemd-nspawn.html) - 轻量级、类似 chroot 的环境，可直接在 systemd 下运行操作系统或命令。([源码](https://github.com/systemd/systemd)) `GPL-2.0` `C`
 
-- [DD-WRT](https://dd-wrt.com/) - A Linux-based firmware for wireless routers and access points, originally designed for the Linksys WRT54G series. ([Source Code](https://svn.dd-wrt.com/)) `GPL-2.0` `C`
-- [OpenWrt](https://openwrt.org/) - A Linux-based router featuring Mesh networking, IPS via snort and AQM among many other features. ([Source Code](https://git.openwrt.org/openwrt/openwrt.git)) `GPL-2.0` `C`
-- [OPNsense](https://opnsense.org/) - An open source FreeBSD-based firewall and router with traffic shaping, load balancing, and virtual private network capabilities. ([Source Code](https://github.com/opnsense)) `BSD-2-Clause` `C/PHP`
-- [pfSense CE](https://www.pfsense.org/) - Free network firewall distribution, based on the FreeBSD operating system with a custom kernel and including third party free software packages for additional functionality. ([Source Code](https://github.com/pfsense/pfsense)) `Apache-2.0` `Shell/PHP/Other`
 
+### 状态页
 
-### Service Discovery
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+[运行时间](https://en.wikipedia.org/wiki/Uptime)是衡量系统可靠性的指标，通常以机器可用时间的百分比表示。
 
-[Service discovery](https://en.wikipedia.org/wiki/Service_discovery) is the process of automatically detecting devices and services on a computer network.
+**请访问 [awesome-selfhosted/Status / Uptime Pages](https://awesome-selfhosted.net/tags/status--uptime-pages.html)**
 
-- [Consul](https://www.consul.io/) - Consul is a tool for service discovery, monitoring and configuration. ([Source Code](https://github.com/hashicorp/consul)) `MPL-2.0` `Go`
-- [etcd](https://etcd.io/) - Distributed K/V-Store, authenticating via SSL PKI and a REST HTTP Api for shared configuration and service discovery. ([Source Code](https://github.com/coreos/etcd)) `Apache-2.0` `Go`
-- [ZooKeeper](https://zookeeper.apache.org/) - ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. ([Source Code](https://github.com/apache/zookeeper)) `Apache-2.0` `Java/C++`
 
+### 故障排查
 
-### Software Containers
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+故障排查工具。
 
-[Operating system–level](https://en.wikipedia.org/wiki/OS-level_virtualization) virtualization.
+- [grml](https://grml.org) - 含强大 CLI 工具的可启动 Debian Live CD。([源码](https://github.com/grml/)) `GPL-3.0` `Shell`
+- [mitmproxy](https://mitmproxy.org/) - 用于拦截、查看和修改网络流量的 Python 工具，排查网络问题非常有用。([源码](https://github.com/mitmproxy/mitmproxy)) `MIT` `Python`
+- [mtr](https://www.bitwizard.nl/mtr/) - 集合 traceroute 和 ping 的网络工具。([源码](https://github.com/traviscross/mtr)) `GPL-2.0` `C`
+- [Sysdig](https://www.sysdig.com/) - 捕获 Linux 实例的系统状态和活动，并进行保存、过滤和分析。([源码](https://github.com/draios/sysdig)) `Apache-2.0` `Docker/Lua/C`
+- [Wireshark](https://www.wireshark.org/) - 世界领先的网络协议分析器。([源码](https://gitlab.com/wireshark/wireshark)) `GPL-2.0` `C`
 
-- [Docker Compose](https://docs.docker.com/compose/) - Define and run multi-container Docker applications. ([Source Code](https://github.com/docker/compose)) `Apache-2.0` `Go`
-- [Docker Swarm](https://docs.docker.com/engine/swarm/) - Manage cluster of Docker Engines. ([Source Code](https://github.com/moby/swarmkit)) `Apache-2.0` `Go`
-- [Docker](https://www.docker.com/) - Platform for developers and sysadmins to build, ship, and run distributed applications. ([Source Code](https://www.docker.com/community/open-source/)) `Apache-2.0` `Go`
-- [LXC](https://linuxcontainers.org/lxc/) - Userspace interface for the Linux kernel containment features. ([Source Code](https://github.com/lxc/lxc)) `GPL-2.0` `C`
-- [LXD](https://linuxcontainers.org/lxd/) - Container "hypervisor" and a better UX for LXC. ([Source Code](https://github.com/lxc/lxd)) `Apache-2.0` `Go`
-- [OpenVZ](https://openvz.org) - Container-based virtualization for Linux. ([Source Code](https://src.openvz.org/projects/OVZ)) `GPL-2.0` `C`
-- [Podman](https://podman.io) - Daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. Simply put: `alias docker=podman`. ([Source Code](https://github.com/containers/podman)) `Apache-2.0` `Go`
-- [Portainer Community Edition](https://www.portainer.io/) - Simple management UI for Docker. ([Source Code](https://github.com/portainer/portainer)) `Zlib` `Go`
-- [systemd-nspawn](https://www.freedesktop.org/software/systemd/man/systemd-nspawn.html) - Lightweight, chroot-like, environment to run an OS or command directly under systemd. ([Source Code](https://github.com/systemd/systemd)) `GPL-2.0` `C`
 
+### 版本控制
 
-### Status Pages
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+软件版本管理与修订控制。
 
-[Uptime](https://en.wikipedia.org/wiki/Uptime) is a measure of system reliability, expressed as the percentage of time a machine, typically a computer, has been working and available.
+- [Darcs](https://darcs.net/) - 跨平台版本控制系统，类似 git、mercurial 或 svn，但采用完全不同的思路：关注变更而非快照。（[源码](https://darcs.net/releases/)）`GPL-2.0` `Haskell`
+- [Fossil](https://www.fossil-scm.org/) - 分布式版本控制，内置 Wiki 和缺陷跟踪。（[源码](https://www.fossil-scm.org/home/dir?ci=trunk)）`BSD-2-Clause` `C`
+- [Git](https://git-scm.com/) - 分布式修订控制和源码管理（SCM），强调速度。（[源码](https://github.com/git/git)）`GPL-2.0` `C`
+- [Mercurial](https://www.mercurial-scm.org/) - 分布式源码控制管理工具。（[源码](https://repo.mercurial-scm.org/hg/file/tip)）`GPL-2.0` `Python/C/Rust`
+- [Subversion](https://subversion.apache.org/) - 客户端-服务器修订控制系统。（[源码](https://svn.apache.org/repos/asf/subversion/trunk/)）`Apache-2.0` `C`
 
-**Please visit [awesome-selfhosted/Status / Uptime Pages](https://awesome-selfhosted.net/tags/status--uptime-pages.html)**
 
+### 虚拟化
 
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-### Troubleshooting
+虚拟化软件。
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
-
-Troubleshooting tools.
-
-- [grml](https://grml.org) - Bootable Debian Live CD with powerful CLI tools. ([Source Code](https://github.com/grml/)) `GPL-3.0` `Shell`
-- [mitmproxy](https://mitmproxy.org/) - A Python tool used for intercepting, viewing and modifying network traffic. Invaluable in troubleshooting certain problems. ([Source Code](https://github.com/mitmproxy/mitmproxy)) `MIT` `Python`
-- [mtr](https://www.bitwizard.nl/mtr/) - Network utility that combines traceroute and ping. ([Source Code](https://github.com/traviscross/mtr)) `GPL-2.0` `C`
-- [Sysdig](https://www.sysdig.com/) - Capture system state and activity from a running Linux instance, then save, filter and analyze. ([Source Code](https://github.com/draios/sysdig)) `Apache-2.0` `Docker/Lua/C`
-- [Wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer. ([Source Code](https://gitlab.com/wireshark/wireshark)) `GPL-2.0` `C`
-
-
-### Version control
-
-**[`^        back to top        ^`](#awesome-sysadmin)**
-
-Software versioning and revision control.
-
-- [Darcs](https://darcs.net/) - Cross-platform version control system, like git, mercurial or svn but with a very different approach: focus on changes rather than snapshots. ([Source Code](https://darcs.net/releases/)) `GPL-2.0` `Haskell`
-- [Fossil](https://www.fossil-scm.org/) - Distributed version control with built-in wiki and bug tracking. ([Source Code](https://www.fossil-scm.org/home/dir?ci=trunk)) `BSD-2-Clause` `C`
-- [Git](https://git-scm.com/) - Distributed revision control and source code management (SCM) with an emphasis on speed. ([Source Code](https://github.com/git/git)) `GPL-2.0` `C`
-- [Mercurial](https://www.mercurial-scm.org/) - Distributed source control management tool. ([Source Code](https://repo.mercurial-scm.org/hg/file/tip)) `GPL-2.0` `Python/C/Rust`
-- [Subversion](https://subversion.apache.org/) - Client-server revision control system. ([Source Code](https://svn.apache.org/repos/asf/subversion/trunk/)) `Apache-2.0` `C`
-
-
-### Virtualization
-
-**[`^        back to top        ^`](#awesome-sysadmin)**
-
-Virtualization software.
-
-- [Ganeti](https://www.ganeti.org/) - Cluster virtual server management software tool built on top of KVM and Xen. ([Source Code](https://github.com/ganeti/ganeti)) `BSD-2-Clause` `Python/Haskell`
-- [KVM](https://www.linux-kvm.org) - Linux kernel virtualization infrastructure. ([Source Code](https://git.kernel.org/pub/scm/virt/kvm/kvm.git/)) `GPL-2.0/LGPL-2.0` `C`
-- [OpenNebula](https://opennebula.org/) - Build and manage enterprise clouds for virtualized services, containerized applications and serverless computing. ([Source Code](https://github.com/OpenNebula/one)) `Apache-2.0` `C++`
-- [oVirt](https://www.ovirt.org/) - Manages virtual machines, storage and virtual networks. ([Source Code](https://github.com/oVirt)) `Apache-2.0` `Java`
-- [Packer](https://www.packer.io/) - A tool for creating identical machine images for multiple platforms from a single source configuration. ([Source Code](https://github.com/hashicorp/packer)) `MPL-2.0` `Go`
-- [Proxmox VE](https://www.proxmox.com/proxmox-ve) - Virtualization management solution. ([Source Code](https://git.proxmox.com/)) `GPL-2.0` `Perl/Shell`
-- [QEMU](https://www.qemu.org/) - QEMU is a generic machine emulator and virtualizer. ([Source Code](https://gitlab.com/qemu-project/qemu)) `LGPL-2.1` `C`
-- [Vagrant](https://www.vagrantup.com/) - Tool for building complete development environments. ([Source Code](https://github.com/hashicorp/vagrant)) `BUSL-1.1` `Ruby`
-- [VirtualBox](https://www.virtualbox.org/) - Virtualization product from Oracle Corporation. ([Source Code](https://www.virtualbox.org/browser/vbox)) `GPL-3.0/CDDL-1.0` `C++`
-- [XCP-ng](https://www.xcp-ng.org/) - Virtualization platform based on Xen Source and Citrix® Hypervisor (formerly XenServer). ([Source Code](https://github.com/xcp-ng)) `GPL-2.0` `C`
-- [Xen](https://www.xenproject.org/) - Virtual machine monitor for 32/64 bit Intel / AMD (IA 64) and PowerPC 970 architectures. ([Source Code](https://xenbits.xenproject.org/gitweb/?p=xen.git;a=tree;hb=HEAD)) `GPL-2.0` `C`
+- [Ganeti](https://www.ganeti.org/) - 基于 KVM 和 Xen 的集群虚拟服务器管理工具。（[源码](https://github.com/ganeti/ganeti)）`BSD-2-Clause` `Python/Haskell`
+- [KVM](https://www.linux-kvm.org) - Linux 内核虚拟化基础设施。（[源码](https://git.kernel.org/pub/scm/virt/kvm/kvm.git/)）`GPL-2.0/LGPL-2.0` `C`
+- [OpenNebula](https://opennebula.org/) - 构建和管理企业云，支持虚拟化服务、容器化应用和无服务器计算。（[源码](https://github.com/OpenNebula/one)）`Apache-2.0` `C++`
+- [oVirt](https://www.ovirt.org/) - 管理虚拟机、存储和虚拟网络。（[源码](https://github.com/oVirt)）`Apache-2.0` `Java`
+- [Packer](https://www.packer.io/) - 从单一源配置为多平台创建一致的机器镜像的工具。（[源码](https://github.com/hashicorp/packer)）`MPL-2.0` `Go`
+- [Proxmox VE](https://www.proxmox.com/proxmox-ve) - 虚拟化管理解决方案。（[源码](https://git.proxmox.com/)）`GPL-2.0` `Perl/Shell`
+- [QEMU](https://www.qemu.org/) - 通用机器模拟器和虚拟化器。（[源码](https://gitlab.com/qemu-project/qemu)）`LGPL-2.1` `C`
+- [Vagrant](https://www.vagrantup.com/) - 构建完整开发环境的工具。（[源码](https://github.com/hashicorp/vagrant)）`BUSL-1.1` `Ruby`
+- [VirtualBox](https://www.virtualbox.org/) - Oracle 公司出品的虚拟化产品。（[源码](https://www.virtualbox.org/browser/vbox)）`GPL-3.0/CDDL-1.0` `C++`
+- [XCP-ng](https://www.xcp-ng.org/) - 基于 Xen Source 和 Citrix® Hypervisor（前 XenServer）的虚拟化平台。（[源码](https://github.com/xcp-ng)）`GPL-2.0` `C`
+- [Xen](https://www.xenproject.org/) - 适用于 32/64 位 Intel / AMD（IA 64）和 PowerPC 970 架构的虚拟机监控器。（[源码](https://xenbits.xenproject.org/gitweb/?p=xen.git;a=tree;hb=HEAD)）`GPL-2.0` `C`
 
 
 ### VPN
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-VPN software.
+VPN 软件。
 
-- [DefGuard](https://defguard.net/) - True enterprise WireGuard with MFA/2FA and SSO. ([Source Code](https://github.com/DefGuard)) `Apache-2.0` `Rust`
-- [Dockovpn](https://dockovpn.io) - Out-of-the-box stateless dockerized OpenVPN server which starts in less than 2 seconds. ([Source Code](https://github.com/dockovpn/dockovpn)) `GPL-2.0` `Docker`
-- [Firezone](https://www.firezone.dev/) - WireGuard based VPN Server and Firewall. ([Source Code](https://github.com/firezone/firezone)) `Apache-2.0` `Docker`
-- [Gluetun VPN client](https://github.com/qdm12/gluetun) -  VPN client in a thin Docker container for multiple VPN providers, written in Go, and using OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.  `MIT` `docker`
-- [Headscale](https://github.com/juanfont/headscale) - Self-hostable fork of [Tailscale](https://tailscale.com), cross-platform clients, simple to use, built-in (currently experimental) monitoring tools. `BSD-3-Clause` `Go`
-- [Nebula](https://github.com/slackhq/nebula) - A scalable p2p VPN with a focus on performance, simplicity and security. `MIT` `Go`
-- [ocserv](https://www.infradead.org/ocserv/) - Cisco AnyConnect-compatible VPN server. ([Source Code](https://gitlab.com/ocserv/ocserv)) `GPL-2.0` `C`
-- [OpenVPN](https://community.openvpn.net) - Uses a custom security protocol that utilizes SSL/TLS for key exchange. ([Source Code](https://github.com/OpenVPN/openvpn)) `GPL-2.0` `C`
-- [SoftEther](https://www.softether.org/) - Multi-protocol software VPN with advanced features. ([Source Code](https://github.com/SoftEtherVPN/SoftEtherVPN/)) `Apache-2.0` `C`
-- [sshuttle](https://github.com/sshuttle/sshuttle) - Poor man's VPN. `LGPL-2.1` `Python`
-- [strongSwan](https://www.strongswan.org/) - Complete IPsec implementation for Linux. ([Source Code](https://github.com/strongswan/strongswan)) `GPL-2.0` `C`
-- [WireGuard](https://www.wireguard.com/) - Very fast VPN based on elliptic curve and public key crypto. ([Source Code](https://www.wireguard.com/repositories/)) `GPL-2.0` `C`
+- [DefGuard](https://defguard.net/) - 真正的企业级 WireGuard，支持 MFA/2FA 和 SSO。（[源码](https://github.com/DefGuard)）`Apache-2.0` `Rust`
+- [Dockovpn](https://dockovpn.io) - 即开即用的无状态 Docker 化 OpenVPN 服务器，启动时间小于 2 秒。（[源码](https://github.com/dockovpn/dockovpn)）`GPL-2.0` `Docker`
+- [Firezone](https://www.firezone.dev/) - 基于 WireGuard 的 VPN 服务器和防火墙。（[源码](https://github.com/firezone/firezone)）`Apache-2.0` `Docker`
+- [Gluetun VPN client](https://github.com/qdm12/gluetun) - 多 VPN 提供商的 Docker VPN 客户端，支持 OpenVPN/WireGuard、DNS over TLS，内置代理。（`MIT` `docker`）
+- [Headscale](https://github.com/juanfont/headscale) - [Tailscale](https://tailscale.com) 的自托管分支，跨平台客户端，易用，内置（实验性）监控工具。`BSD-3-Clause` `Go`
+- [Nebula](https://github.com/slackhq/nebula) - 注重性能、简洁和安全的可扩展 P2P VPN。`MIT` `Go`
+- [ocserv](https://www.infradead.org/ocserv/) - 兼容 Cisco AnyConnect 的 VPN 服务器。（[源码](https://gitlab.com/ocserv/ocserv)）`GPL-2.0` `C`
+- [OpenVPN](https://community.openvpn.net) - 使用 SSL/TLS 进行密钥交换的自定义安全协议。（[源码](https://github.com/OpenVPN/openvpn)）`GPL-2.0` `C`
+- [SoftEther](https://www.softether.org/) - 多协议软件 VPN，功能强大。（[源码](https://github.com/SoftEtherVPN/SoftEtherVPN/)）`Apache-2.0` `C`
+- [sshuttle](https://github.com/sshuttle/sshuttle) - “穷人版”VPN。`LGPL-2.1` `Python`
+- [strongSwan](https://www.strongswan.org/) - Linux 下完整的 IPsec 实现。（[源码](https://github.com/strongswan/strongswan)）`GPL-2.0` `C`
+- [WireGuard](https://www.wireguard.com/) - 基于椭圆曲线和公钥加密的高速 VPN。（[源码](https://www.wireguard.com/repositories/)）`GPL-2.0` `C`
 
 
 ### Web
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
-[Web servers](https://en.wikipedia.org/wiki/Web_server) and [reverse proxies](https://en.wikipedia.org/wiki/Reverse_proxy).
+[Web 服务器](https://en.wikipedia.org/wiki/Web_server)与[反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)。
 
-**Please visit [awesome-selfhosted/Web Servers](https://awesome-selfhosted.net/tags/web-servers.html)**
+**请访问 [awesome-selfhosted/Web Servers](https://awesome-selfhosted.net/tags/web-servers.html)**
 
 
 --------------------
 
-## List of Licenses
+## 许可证列表
 
-**[`^        back to top        ^`](#awesome-sysadmin)**
+**[`^        返回顶部        ^`](#awesome-sysadmin)**
 
 - `AGPL-3.0` - [GNU Affero General Public License 3.0](https://spdx.org/licenses/AGPL-3.0.html)
 - `Apache-2.0` - [Apache, Version 2.0](https://spdx.org/licenses/Apache-2.0.html)
@@ -754,44 +720,44 @@ VPN software.
 
 --------------------
 
-## External links
+## 外部链接
 
-## Communities / Forums
+## 社区 / 论坛
 
-- [ArsTechnica OpenForum](https://arstechnica.com/civis/) - IT Forum which is attached to a large news site.
-- [Reddit](https://www.reddit.com) - Really, really large bulletin board system.
-  - [/r/Linux](https://www.reddit.com/r/linux) - News and information about Linux.
+- [ArsTechnica OpenForum](https://arstechnica.com/civis/) - 附属于大型新闻网站的 IT 论坛。
+- [Reddit](https://www.reddit.com) - 超大型论坛系统。
+  - [/r/Linux](https://www.reddit.com/r/linux) - 有关 Linux 的新闻和信息。
   - [/r/LinuxQuestions](https://www.reddit.com/r/linuxquestions)
   - [/r/SysAdmin](https://www.reddit.com/r/sysadmin/)
-- [Spiceworks Community](https://community.spiceworks.com/start) - General enterprise IT news and small articles.
-- [StackExchange Network](https://stackexchange.com/sites#technology) - Q&A communities.
-  - [Server Fault](https://serverfault.com/) - StackExchange community for system and network administrators.
+- [Spiceworks Community](https://community.spiceworks.com/start) - 企业 IT 新闻与小型文章的综合社区。
+- [StackExchange Network](https://stackexchange.com/sites#technology) - 问答社区网络。
+  - [Server Fault](https://serverfault.com/) - 面向系统和网络管理员的 StackExchange 社区。
 
-## Repositories
+## 软件仓库
 
-*Software package repositories.*
+*软件包仓库。*
 
-- [AlternativeTo](https://alternativeto.net) - Find alternatives to software you know and discover new software.
-- [deb.sury.org](https://deb.sury.org/) - Repository with LAMP updated packages for Debian and Ubuntu.
-- [ElRepo](https://elrepo.org/tiki/tiki-index.php) - Community Repo for Enterprise Linux (RHEL, CentOS, etc).
-- [EPEL](https://fedoraproject.org/wiki/EPEL) - Repository for RHEL and compatibles (CentOS, Scientific Linux).
-- [IUS](https://ius.io/) - Community project that provides RPM packages for newer versions of select software for Enterprise Linux distributions.
-- [Remi](http://rpms.famillecollet.com/) - Repository with LAMP updated packages for RHEL/Centos/Fedora.
-- [Software Collections](https://www.softwarecollections.org) - Community Release of [Red Hat Software Collections](https://access.redhat.com/documentation/en/red-hat-software-collections/). Provides updated packages of Ruby, Python, etc. for CentOS/Scientific Linux 6.x.
+- [AlternativeTo](https://alternativeto.net) - 查找你熟悉软件的替代品并发现新软件。
+- [deb.sury.org](https://deb.sury.org/) - Debian 和 Ubuntu 的 LAMP 更新包仓库。
+- [ElRepo](https://elrepo.org/tiki/tiki-index.php) - 企业 Linux（RHEL、CentOS 等）的社区仓库。
+- [EPEL](https://fedoraproject.org/wiki/EPEL) - RHEL 及兼容系统（CentOS、Scientific Linux）的仓库。
+- [IUS](https://ius.io/) - 为企业 Linux 发行版提供部分软件新版本 RPM 包的社区项目。
+- [Remi](http://rpms.famillecollet.com/) - RHEL/Centos/Fedora 的 LAMP 更新包仓库。
+- [Software Collections](https://www.softwarecollections.org) - [Red Hat Software Collections](https://access.redhat.com/documentation/en/red-hat-software-collections/) 的社区发布，提供 CentOS/Scientific Linux 6.x 的 Ruby、Python 等更新包。
 
-## Websites
+## 网站
 
-- [Cloud Native Software Landscape](https://landscape.cncf.io/?group=projects-and-products&view-mode=card) - Compilation of software and tools for cloud computing.
-- [ArchWiki](https://wiki.archlinux.org/) - Arch Linux Wiki which has really nice written articles valid for other distros.
-- [Gentoo Wiki](https://wiki.gentoo.org/) - Gentoo Linux Wiki with a lot in-detail description of Linux components.
-- [Awesome SysAdmin @ LibHunt](https://sysadmin.libhunt.com) - Your go-to SysAdmin Toolbox. Based on the list here.
-- [Ops School](https://www.opsschool.org) - Comprehensive program that will help you learn to be an operations engineer.
-- [Digital Ocean Tutorials](https://www.digitalocean.com/community/tutorials) - 6,000+ tutorials for getting the basics of certain applications/tools/systems administration topics.
+- [Cloud Native Software Landscape](https://landscape.cncf.io/?group=projects-and-products&view-mode=card) - 云计算相关软件与工具的汇总。
+- [ArchWiki](https://wiki.archlinux.org/) - Arch Linux Wiki，内容详实，适用于其他发行版。
+- [Gentoo Wiki](https://wiki.gentoo.org/) - Gentoo Linux Wiki，详细介绍 Linux 组件。
+- [Awesome SysAdmin @ LibHunt](https://sysadmin.libhunt.com) - 系统管理员工具箱，基于本列表整理。
+- [Ops School](https://www.opsschool.org) - 帮助你成为运维工程师的综合性学习项目。
+- [Digital Ocean 教程](https://www.digitalocean.com/community/tutorials) - 6000+ 篇关于应用、工具、系统管理主题的基础教程。
 
 ------------------
 
-## License
+## 许可证
 
 ![cc license](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) license.
+本作品采用 [知识共享署名-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-sa/4.0/) 进行许可。
